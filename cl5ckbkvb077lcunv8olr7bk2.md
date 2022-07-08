@@ -1,6 +1,6 @@
 ## A Fast, Secure Cloud Storage Sync For Linux
 
-If you're a regular user of Linux or just switched from Windows recently, then you may have encountered the cloud storage problem. In Windows, there are plenty of cloud storage programs like OneDrive which help you to sync your data to the cloud. But, unfortunately in Linux, we don't have such an option for now and some of them are paid like NextCloud t.
+If you're a regular user of Linux or just switched from Windows recently, then you may have encountered the cloud storage problem. In Windows, there are plenty of cloud storage programs like OneDrive which help you to sync your data to the cloud. But, unfortunately in Linux, we don't have such an option for now and some of them are paid like NextCloud.
 
 So, recently I found a service [Storj](https://www.storj.io/). Storj is a Decentralized storage provider with a Zero-Trust security model.
 Storj gives you the vibe of AWS S3 because it is not like a typical cloud service like Google Drive or DropBox. It's a bit different, let's discuss. In cloud services like Google Drive, OneDrive or Dropbox you have to pay a monthly subscription fee and its file structure is relatively the same as your typical system. There would be some directories containing files or sub-directories.
