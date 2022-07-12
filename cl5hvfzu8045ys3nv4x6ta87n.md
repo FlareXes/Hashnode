@@ -1,6 +1,6 @@
 ## Parrot OS Weird Docker Installation Issues
 
-Parrot OS is a privacy-focused penetration testing operating system. Which comes bundled with many pentesting or hacking tools. But, sometimes we need to install something else like `Docker`. Which prompts a wired issue. Something like that.
+Parrot OS is a privacy-focused penetration testing operating system. Which comes bundled with many pentesting or hacking tools. But, sometimes we need to install something else like `Docker`. Which prompts a weird issue. Something like that.
 
 ```txt
 E: The repository 'https://download.docker.com/linux/debian ara Release' does not have a Release file.
@@ -29,7 +29,7 @@ sudo mkdir -p /etc/apt/keyrings
 curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 ```
 
-> **Note:** It's always recommended to perform *Step 2* from the Docker office site because sometimes (rarely) gets changed. [Check from here](https://docs.docker.com/engine/install/debian/)
+> **Note:** It's always recommended to perform *Step 2* from the Docker official site because sometimes (rarely) gets changed. [Check from here](https://docs.docker.com/engine/install/debian/)
 
 **Step 3:** Setup The Docker Repository (The Problem ☠️)
 
