@@ -133,7 +133,7 @@ If you want **LibreWolf** like privacy and security then you can set up your own
 
 Step By Step `user.js` Setup Tutorial
 
-<iframe id="odysee-iframe" width="560" height="315" src="https://odysee.com/$/embed/making-firefox-great-again/7d7c353ea473700d03a7a9b266c1624792d43097?r=KdDEZbLfaDYEtCELspM9mSBWe6uNTRQg" allowfullscreen></iframe>
+<iframe id="odysee-iframe" width="800" height="500" src="https://odysee.com/$/embed/making-firefox-great-again/7d7c353ea473700d03a7a9b266c1624792d43097?r=KdDEZbLfaDYEtCELspM9mSBWe6uNTRQg" allowfullscreen></iframe>
 
 **Brave**
 
