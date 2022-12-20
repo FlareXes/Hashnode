@@ -2,8 +2,6 @@
 
 If you spend a lot of time in front of a computer and prefer to use a keyboard over a mobile phone, you may have encountered the hassle of TOTP (Time-based one-time password) authentication. Entering the TOTP code from your mobile phone manually every time you need to authenticate can be a hassle. Yes, We can get an autofill TOTP functionality from services like `1password`, and `Bitwarden` but they all are paid. Most 2FA service providers require you to share your email address and phone number, which may be a concern for some people who value their privacy. This is bit of a concern for me too. Hmm! So, I decided to automate this problem using my bash skills.
 
-![demo passrofi](https://cdn.hashnode.com/res/hashnode/image/upload/v1671350533746/nsTponRcr.gif align="center")
-
 Before we deep dive, If you aren't using any sort of **2FA** to secure your online accounts, then it's bad not using 2FA leaves your accounts vulnerable to unauthorized access. So just start using one. I like to use **Authy** before I wrote this utility. `Authy` is the only trusted player in the TOTP 2FA market which provide support for desktop application including Linux, Windows and macOS. While Google and Microsoft also offer 2FA solutions, their support for desktop applications is more limited compared to Authy.
 
 > ***Don't Waste Time:*** If you've already set up `pass-otp` or using it then straight jump into the [Automating Pass OTP](#automating-pass-otp) section.
