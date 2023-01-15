@@ -1,4 +1,4 @@
-## Brave vs LibreWolf : Privacy and Security Without Conditions 🔏
+# Brave vs LibreWolf : Privacy and Security Without Conditions 🔏
 
 In the era of Internet, we spend most of our time in browsers. It is surely worth to spare some time on finding a so-called perfect web browser. It is easy ha? Because we already know a few browsers that respect users' privacy and security like Google Chrome. Wait! What! No! No doubt Google security is top-notch (acc. to someone. IDK who actually?) but there is no word **Privacy** in Google's dictionary and if there was then they must have been removed by now. So, jokes aside. Ya, there are few web browsers which really respect user **Privacy** and **Security**. Some of them are Mozilla Firefox, Brave, Chromium, Tor etc. There are some other browsers also like Waterfox, Bromite etc. but I never saw someone using them. So there could be some research and community support issues. But now we have a new player in the league **LibreWolf** which is a kind of competition killer in the market. So, let's discuss **Brave** Vs **LibreWolf**.
 
