@@ -50,7 +50,7 @@ Signal has almost all the features that WhatsApp has. It is also E2EE and can be
 
 You can't contribute the Signal's [libsignal](https://github.com/signalapp/libsignal) project. **Libsignal** contains underlying implementations of Signal Protocol. And, It makes sense because **Libsignal** is a sensitive project so any change in the cryptography library can directly affect Signal's Application Security. Know more about Libsignal [contributions here](https://github.com/signalapp/libsignal#contributions).
 
-It's worth mentioning [**Signal Protocol**](https://en.wikipedia.org/wiki/Signal_Protocol) is being used by many famous communication applications including **WhatsApp**. Yep! Google, WhatsApp, Skype and more use *Signal Protocol*\* to secure their communications. More to it, **Signal Protocol** is universally regarded as the gold standard for encrypted messaging.
+It's worth mentioning [**Signal Protocol**](https://en.wikipedia.org/wiki/Signal_Protocol) is being used by many famous communication applications including **WhatsApp**. Yep! Google, WhatsApp, Skype and more use *Signal Protocol* to secure their communications. More to it, **Signal Protocol** is universally regarded as the gold standard for encrypted messaging.
 
 ## When Govt. Asks For Information
 
@@ -88,7 +88,7 @@ When jurisdictions force Signal to hand over users' info, Then they get NOTHING!
 
 # Introducing Session: Send Messages, Not Metadata
 
-*Session* is an E2EE messaging application that works on a decentralized Oxen network. Session mission is to increase Anonymity with Privacy and Security by minimizing sensitive metadata. Session was originally a fork of *Signal* but their underlying implementation is completely different. All the Session messages are routed through **Onion Network**. And of course, It is completely **Open-Source**. The Primary selling point of Session is they even *don't require a Cell* ***Phone Number*** *or any Identifiable Information*.
+*Session* is an E2EE messaging application that works on a decentralized Oxen network. Session mission is to increase Anonymity with Privacy and Security by minimizing sensitive metadata. Session was originally a fork of *Signal* but their underlying implementation is completely different. All the Session messages are routed through **Onion Network**. And of course, It is completely **Open-Source**. The primary selling point of Session is they even *don't require a Cell* ***Phone Number*** *or any Identifiable Information*.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675780091149/e4fb93c3-4275-42f7-a76b-695a411c865d.png align="center")
 
@@ -104,7 +104,7 @@ I Highly RECOMMEND TO WATCH Session Beginner's Guide
 
 ### **Session Security Compare To Signal**
 
-First, let's talk about encryption. Session encrypts your messages using [Session Protocol](https://getsession.org/blog/session-protocol-technical-information) which is built on [Libsodium](https://doc.libsodium.org/). A fairly know cryptography library. Sodium or Libsodium is okay but not the Session Protocol because Signal Protocol is the gold standard right? Right, but if we think Session is an entirely different project from Signal and many other messengers. As I said earlier, Session was a fork of Signal and they were using Signal Protocol. But with a completely odd underlying implementation Signal's Protocol wasn't complying. Session works on a decentralized network, and messages are onion routed. So, they need a protocol that blends with their infrastructure. I highly recommend reading their blog post, [Session Protocol Technical Information](https://getsession.org/blog/session-protocol-technical-information). It has some serious issues that Signal Protocol can mitigate but Session can't.
+First, let's talk about encryption. Session encrypts your messages using [Session Protocol](https://getsession.org/blog/session-protocol-technical-information) which is built on [Libsodium](https://doc.libsodium.org/). A fairly known cryptography library. Sodium or Libsodium is okay but not the Session Protocol because Signal Protocol is the gold standard right? Right, but if we think Session is an entirely different project from Signal and many other messengers. As I said earlier, Session was a fork of Signal and they were using Signal Protocol. But with a completely odd underlying implementation Signal's Protocol wasn't complying. Session works on a decentralized network, and messages are onion routed. So, they need a protocol that blends with their infrastructure. I highly recommend reading their blog post, [Session Protocol Technical Information](https://getsession.org/blog/session-protocol-technical-information). It has some serious issues that Signal Protocol can mitigate but Session can't.
 
 ### **How Session Handles Govt.**
 
@@ -112,7 +112,7 @@ Speaking of infrastructure, Session is an **Australian** based organization that
 
 ### **Session Features**
 
-If Session is doing all most everything great then where is that problem? And, you may have guessed correctly it's in the features section. I can't say Session is a drop-in replacement of WhatsApp like Signal. Session is limited to its feature. Session implementation is so different that adding any new feature is not easy. But, Session has all the necessary features that usually people require. But sorry, you won't get **Status Garbage**. I'm not aware of all the features provided by WhatsApp and Signal because I really don't use them. That is why I listed what you can do in Session so you can let me know what feature Session is missing for now.
+If Session is doing almost everything great then where is that problem? And, you may have guessed correctly it's in the features section. I can't say Session is a drop-in replacement of WhatsApp like Signal. Session is limited to its feature. Session implementation is so different that adding any new feature is not easy. But, Session has all the necessary features that usually people require. But sorry, you won't get **Status Garbage**. I'm not aware of all the features provided by WhatsApp and Signal because I really don't use them. That is why I listed what you can do in Session so you can let me know what feature Session is missing for now.
 
 You can:
 
@@ -137,11 +137,11 @@ I only mentioned important ones there could be more. Setting a password on Sessi
 
 * Limited Features
     
-* [Communities](https://sessionapp.zendesk.com/hc/en-us/articles/4439201907225-What-are-groups-How-do-they-differ-from-communities) Aren't Safe
-    
 * Slow Development Cycle
     
 * Use Of Own [Security Protocol](https://www.getsession.org/blog/session-protocol-technical-information)
+    
+* [Session Community](https://sessionapp.zendesk.com/hc/en-us/articles/4439201907225-What-are-groups-How-do-they-differ-from-communities) Feature Isn't Safe
     
 
 ## Pros
@@ -181,7 +181,7 @@ WhatsApp is owned by a company whose main revenue comes from *Advertisements* Me
 
 ### ***Session & Signal***
 
-Session and Signal are developed by the **Non-Profit** organizations *Oxen Privacy Tech Foundation* and *Signal Technology Foundation* respectively. They aim to spread privacy and security around the world not to make profiles. So, Session and Signal revenue comes from **Donations**. There is nothing more to say.
+Session and Signal are developed by the **Non-Profit** organizations *Oxen Privacy Tech Foundation* and *Signal Technology Foundation* respectively. They aim to spread privacy and security around the world not to make only profits. So, Session and Signal revenue comes from **Donations**. There is nothing more to say.
 
 You may wanna look at Oxen's plan for the Session in future [here](https://oxen.io/roadmap). They might launch a premium plan for Session but not any soon.
 
