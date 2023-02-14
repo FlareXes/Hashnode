@@ -1,4 +1,4 @@
-# Signal vs Session: Send Messages, Not Metadata
+# Session vs Signal: Something Better Then WhatsApp
 
 Instant messaging applications become a huge part of a digital lifestyle and can affect someone's personal life if somebody can get hold of it. Not just external threat actors but these days companies themselves are using software to track your behavior to make big bucks. Many leading organizations pushed Privacy and Security as a selling point without showing the reality. Like - Telegram and WhatsApp End-To-End Encryption (E2EE).
 
