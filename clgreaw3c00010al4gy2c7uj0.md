@@ -3,7 +3,7 @@ title: "Take Control of Your Search Experience with SearXNG"
 datePublished: Sat Apr 22 2023 03:02:52 GMT+0000 (Coordinated Universal Time)
 cuid: clgreaw3c00010al4gy2c7uj0
 slug: take-control-of-your-search-experience-with-searxng
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1682132284718/ede6f99c-49ac-4b02-84a2-59b85c2341cf.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1682133028522/1e3c1886-1420-49da-9604-b9acc771610b.png
 tags: docker, security, privacy, devops, searxng
 
 ---
