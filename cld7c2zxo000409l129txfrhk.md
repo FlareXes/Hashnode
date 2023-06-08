@@ -1,4 +1,14 @@
-# Automatically Spoof MAC Address
+---
+title: "Automatically Spoof MAC Address"
+seoTitle: "Automatically Spoof MAC Address"
+seoDescription: "If you are in a monitored environment randomizing the MAC address of the network interface can provide you security and privacy benefits. Macchanger"
+datePublished: Sun Jan 22 2023 12:06:14 GMT+0000 (Coordinated Universal Time)
+cuid: cld7c2zxo000409l129txfrhk
+slug: automatically-spoof-mac-address
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1674388685280/27c7bcdd-b5e7-4076-8277-00b81018e331.png
+tags: linux, security, privacy, hacking, systemd
+
+---
 
 There are plenty of reasons to spoof a ***Media Access Control*** address or MAC address. If you are in a monitored environment. It will be difficult to identify you with random MAC address. If somebody blocked you from connecting to WiFi. Then maybe they have used MAC whitelisting or blacklisting. Which can be bypassed if you spoof the MAC address. And, of course, randomizing the MAC address of the network interface can provide you some security and privacy benefits. It is not a foolproof solution but it's a solution. Which is easy to set up. Everyone should spoof their MAC address whenever possible it does not make sense that every device you ever connected needs to remember that for a long. In **Windows**, you can use something like **Technitium**, a free utility to spoof MAC address instantly. I'll go with **GNU/Linux**. So, Let's straight jump into the ***SYSTEMD*** 🫢
 
@@ -38,7 +48,7 @@ Replace `<interface>` with your network interface. e.g. `macchanger -e wlan0`. Y
     
 2. Paste these lines in `/etc/systemd/system/macspoof@.service`.
     
-    ```systemd
+    ```plaintext
     [Unit]
     Description=macchanger on %I
     Wants=network-pre.target
@@ -58,7 +68,7 @@ Replace `<interface>` with your network interface. e.g. `macchanger -e wlan0`. Y
     
 3. Enable the service by appending the network interface to the service. For example, I want to change my `wlan0` mac address on every boot.
     
-    ```
+    ```plaintext
     sudo systemctl enable macspoof@wlan0.service
     ```
     
@@ -97,7 +107,7 @@ In summary, this is a systemd service unit file template that can create multipl
     
 9. `[Install]` specifies how and when service should be installed.
     
-10. `WantedBy=multi-user.target` specifies the service should start at `multi-user.target` level which means multiple users can interact with the system.
+10. `WantedBy=multi-user.target` specifies the service should start at `multi-user.target` level which means the state where the system can accept multiple non-graphical user sessions.
     
 
 That's all, Now you know what exactly this unit file is doing.
