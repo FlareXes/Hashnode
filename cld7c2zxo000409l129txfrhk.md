@@ -114,6 +114,10 @@ That's all, Now you know what exactly this unit file is doing.
 
 Not to mention, There are plenty of other ways you can spoof MAC address. If you don't like this method, arch wiki has some good stuff you can check [MAC address spoofing](https://wiki.archlinux.org/title/MAC_address_spoofing). I like this method because I just need to copy and paste a few lines then enable the service and never worry about it again.
 
+You can also check out the practical demonstration of this article.
+
+%[https://www.youtube.com/watch?v=1tjoUtHAKjs] 
+
 # Summary
 
 Randomizing the MAC address of the network interface has some security and privacy benefits. But sometimes it is tedious to do it manually. So we automated that using Systemd. Some people like Systemd and some don't. But it provide multiple purposes to use it. I hope you have learned something about systemd, MAC spoofing and unit files. The above script is taken from arch wiki so check out Arch Wiki to know more about [MAC address spoofing](https://wiki.archlinux.org/title/MAC_address_spoofing) stuff.
