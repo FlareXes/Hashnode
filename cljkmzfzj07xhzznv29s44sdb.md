@@ -98,6 +98,8 @@ Private Key for Decryption.
 
 Asymmetric Cryptography, Yep straight-up Asymmetric Cryptography provides better security than Symmetric Cryptography. But still, this is not usually the best to encrypt data. Let's understand this.
 
+* Symmetric Cryptography is more resistant to quantum computing.
+    
 * Symmetric Cryptography is suitable for encrypting/decrypting large data.
     
 * Symmetric Cryptography algorithms are easy to implement in the codebase.
@@ -184,6 +186,8 @@ Now, you can go to [CyberChef](https://gchq.github.io/CyberChef/) and try to dec
 
 KDF or Key Derivation Function is a cryptographic algorithm that is used to derive one or more keys from a primary secret (a master key or a passphrase), [Key Stretching](https://en.wikipedia.org/wiki/Key_stretching) to make weak keys more secure or to increase computation cost. This provides resistance against brute-force attacks or pre-computed rainbow table attacks. Like Hashing, KDF algorithms also generate deterministic output or one-way output. We can't reverse it.
 
+### When to use KDF over Hash?
+
 Let's understand a few similarities between Hashing and Key Derivation Function. They both look and work pretty much the same, though they serve different purposes, which is crucial to look into.
 
 Hash functions are pretty fast at calculating the hash digest (hash value) of large amounts of data. Which is best suited for ensuring integrity and message authentication. But sometimes we want things to be slow in the cryptography world. Let's see why.
@@ -217,13 +221,13 @@ random_number will be 9.5625
 
 Now, this will generate a new random number every time you run it, but is it really a true random number? No, it's not. It just looks random in nature. So, it's not a good practice to use PRNGs for security purposes. PRNGs are best for games or simple tasks, but not for security stuff; for that we have CPRNG.
 
-Python's `random` module documentation shows a big red warning box stating - `Warning: The pseudo-random generators of this module should not be used for security purposes. For security or cryptographic uses, see the secrets module`. This is a good example of always refer to the documentation. More on that in the \[Never Assume, Refer To Documentation\] section.
+Python's `random` module documentation shows a big red warning box stating - `Warning: The pseudo-random generators of this module should not be used for security purposes. For security or cryptographic uses, see the secrets module`. This is a good example of always refer to the documentation. More on that in the [Never Assume, Refer To Documentation](https://flarexes.com/cryptography-for-developers#heading-never-assume-refer-to-documentation) section.
 
 > **Random Fact**: Python uses *Mersenne Twister* as PRNG in random module.
 
 ### Cryptographic Pseudo-Random Number Generator
 
-[CPRNGs](https://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator) are algorithms that are suitable for security purposes. CPRNGs are seeded with good-quality randomness to avoid future predictions, like keyboard typing speed, mouse position, moving speed, radio decay, IOs (input/output), etc. These events are hard to predict. VeraCrypt (an encryption utility) uses mouse movements, to generate a good-quality random seed. Every programming language or operating system has different implementations of generating CPRNGs; therefore, it is not possible to mention all of them here. That's why it is recommended to refer to the documentation of the source (Programming Language, OS, Hardware, etc) you're using to generate CPRNG. But here are a few examples: on Linux, you can use `/dev/urandom` and in Python, you can use `secrets` module. At last, CPRNGs take more time to compute a good-quality seed than PRNGs.
+[CPRNGs](https://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator) are algorithms that are suitable for security purposes. CPRNGs are seeded with good-quality randomness to avoid future predictions, like keyboard typing speed, mouse position, moving speed, radio decay, IOs (input/output), etc. These events are hard to predict. VeraCrypt (an encryption utility) uses mouse movements, to generate a good-quality random seed. Every programming language or operating system has different implementations of generating CPRNGs; therefore, it is not possible to mention all of them here. That's why it is recommended to refer to the documentation of the source (Programming Language, OS, Hardware, etc) that you're using to generate CPRNG. But here are a few examples: on Linux, you can use `/dev/urandom` and in Python, you can use `secrets` module. At last, CPRNGs take more time to compute a good-quality seed than PRNGs.
 
 # Rules of Thumb
 
@@ -237,7 +241,7 @@ Bitwarden password manager is a fantastic example; they don't write any cryptogr
 
 Bruce Schneier once said "Anyone, from the most clueless amateur to the best cryptographer, can create an algorithm that he himself can't break." also known as **Schneier's Law**.
 
-I'm not saying you should never write a crypto algorithm otherwise who will give us more good crypto libraries and algorithms? I'm just saying, don't use them in production if it doesn't satisfy all \[Rules of Thumb\].
+I'm not saying you should never write a crypto algorithm otherwise who will give us more good crypto libraries and algorithms? I'm just saying, don't use them in production if it doesn't satisfy all [Rules of Thumb](https://flarexes.com/cryptography-for-developers#heading-rules-of-thumb).
 
 You should definitely read this short article by Bruce Schneier If you want to be a good Cipher Designer in the future - [Memo to the Amateur Cipher Designer](https://www.schneier.com/crypto-gram/archives/1998/1015.html#cipherdesign).
 
