@@ -4,7 +4,7 @@ seoTitle: "Cryptography For Developers - Best Practices 🔏"
 datePublished: Sat Jul 01 2023 23:30:39 GMT+0000 (Coordinated Universal Time)
 cuid: cljkmzfzj07xhzznv29s44sdb
 slug: cryptography-for-developers
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1687871036077/29f4b261-069d-42ab-8d42-6b90893eec8f.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1688258170779/4422b87b-a43e-473e-b295-7ab5f13ec364.png
 tags: python, security, developer, best-practices, cryptography
 
 ---
