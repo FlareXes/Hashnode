@@ -1,4 +1,13 @@
-# Session vs Signal: Something Better Then WhatsApp
+---
+title: "Session vs Signal: Something Better Then WhatsApp"
+seoTitle: "Session vs Signal: Which is Better?"
+datePublished: Tue Feb 07 2023 14:35:13 GMT+0000 (Coordinated Universal Time)
+cuid: clducg7l2000d09l0a0ywe6aw
+slug: session-vs-signal-something-better-then-whatsapp
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1676348156575/d75251bc-b7b0-48e3-ac32-c04ddcb3adae.png
+tags: security, privacy, whatsapp, session, signal
+
+---
 
 Instant messaging applications become a huge part of a digital lifestyle and can affect someone's personal life if somebody can get hold of it. Not just external threat actors but these days companies themselves are using software to track your behavior to make big bucks. Many leading organizations pushed Privacy and Security as a selling point without showing the reality. Like - Telegram and WhatsApp End-To-End Encryption (E2EE).
 
@@ -92,7 +101,7 @@ When jurisdictions force Signal to hand over users' info, Then they get NOTHING!
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675780091149/e4fb93c3-4275-42f7-a76b-695a411c865d.png align="center")
 
-## How does Session Work Then?
+## How Does Session Work Then?
 
 You may be thinking if Session doesn't require a Phone Number, E-Mail and any Personally Identifiable Info. Then how does it work? So, Session actually generates a completely random string called **Session Id,** which works like a phone number. This Session Id needs to be shared with whom you want to send messages and once that person enters your Session Id in his Session app, you can start your conversations. This is similar to WhatsApp and Signal, you share your phone number with your friend. You can also use the same account on different devices by using the recovery phrase.
 
@@ -108,7 +117,13 @@ First, let's talk about encryption. Session encrypts your messages using [Sessio
 
 ### **How Session Handles Govt.**
 
-Speaking of infrastructure, Session is an **Australian** based organization that could be an eye blinker for few people and believe me, Session also thought about that. So, they shifted their infrastructure to **Switzerland**. Happy! 🙂 In the end, it's not that matter of a problem because they also don't store any form of information about users not even a *Phone Number* that Signal does. Till now, I didn't find any Jurisdiction Data Request from Session. You can keep an eye on [Transparency Report](https://optf.ngo/transparency/) if any data is being requested from Session, Oxen, Lokinet or any combination of their technologies that would be listed here just like Signal.
+Speaking of infrastructure, Session is an **Australian** based organization that could be an eye blinker for few people and believe me, Session also thought about that. So, they developed technology that could be resistant to surveillance by governments.
+
+Decentralization and metadata minimization are the core of that ideal. The Session team is based in Australia, but Session has infrastructure all around the world. But It's worth keep in mind the majority of those servers are owned by Session itself. Session also recently surpassed 750,000 users.
+
+%[https://twitter.com/session_app/status/1674656115341287424] 
+
+In the end, it's not that matter of a problem because they also don't store any form of information about users not even a *Phone Number* that Signal does. Till now, I didn't find any Jurisdiction Data Request from Session. You can keep an eye on [Transparency Report](https://optf.ngo/transparency/) if any data is being requested from Session, Oxen, Lokinet or any combination of their technologies that would be listed here just like Signal.
 
 ### **Session Features**
 
@@ -168,8 +183,6 @@ I only mentioned important ones there could be more. Setting a password on Sessi
 For me, It is straightforward, I don't like bloat. Session has a simple, clean and beautiful UI with fewer unnecessary features. I rarely use my phone number and Session doesn't require one. And, It routes all the text messages through an onion network. And, forget to mention the real reason, They got a nice promotion video. You have to watch this.
 
 %[https://www.youtube.com/watch?v=6664mpKmccA] 
-
-> **Kudos to Session**, For Showing Developers That The Integration Of **Crypto Stuff** In An Application Doesn't Need To Be Complex And Bloat For Users.
 
 # How Do They Make Profit?
 
