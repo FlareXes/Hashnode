@@ -1,9 +1,10 @@
 ---
-title: "Cryptography For Developers 🔏"
-seoTitle: "Cryptography For Developers - Best Practices 🔏"
+title: "Cryptography For Developers & Best Practices"
+seoTitle: "Cryptography For Developers & Best Practices"
+seoDescription: "Sometimes it is misunderstood that developers should know the maths behind the cryptographic algorithm. Which is such a myth. They don't need to worry about"
 datePublished: Sat Jul 01 2023 23:30:39 GMT+0000 (Coordinated Universal Time)
 cuid: cljkmzfzj07xhzznv29s44sdb
-slug: cryptography-for-developers
+slug: cryptography-for-developers-best-practices
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1688258379447/a3923b1f-b9be-430f-883f-2b205bd8a6ae.png
 tags: python, security, developer, best-practices, cryptography
 
