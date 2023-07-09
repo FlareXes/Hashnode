@@ -230,7 +230,7 @@ Python's `random` module documentation shows a big red warning box stating - `Wa
 
 [CPRNGs](https://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator) are algorithms that are suitable for security purposes. CPRNGs are seeded with good-quality randomness to avoid future predictions, like keyboard typing speed, mouse position, moving speed, radio decay, IOs (input/output), etc. These events are hard to predict. VeraCrypt (an encryption utility) uses mouse movements, to generate a good-quality random seed. Every programming language or operating system has different implementations of generating CPRNGs; therefore, it is not possible to mention all of them here. That's why it is recommended to refer to the documentation of the source (Programming Language, OS, Hardware, etc) that you're using to generate CPRNG. But here are a few examples: on Linux, you can use `/dev/urandom` and in Python, you can use `secrets` module. At last, CPRNGs take more time to compute a good-quality seed than PRNGs.
 
-# Rules of Thumb
+# Best Practices To Follow In Cryptography
 
 Up until now, we have already discussed basic terminologies and things that are commonly used in development. And now we will see important rules or bullet points that should always be considered while working with cryptography. These are some best practices to follow while selecting or implementing a cryptographic algorithm.
 
