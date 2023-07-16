@@ -1,10 +1,10 @@
 ---
-title: "Cryptography For Developers & Best Practices"
+title: "Cryptography for Developers and Best Practices"
 seoTitle: "Cryptography For Developers & Best Practices"
 seoDescription: "Sometimes it is misunderstood that developers should know the maths behind the cryptographic algorithm. Which is such a myth. They don't need to worry about"
 datePublished: Sat Jul 01 2023 23:30:39 GMT+0000 (Coordinated Universal Time)
 cuid: cljkmzfzj07xhzznv29s44sdb
-slug: cryptography-for-developers-best-practices
+slug: cryptography-for-developers-and-best-practices
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1688258379447/a3923b1f-b9be-430f-883f-2b205bd8a6ae.png
 tags: python, security, developer, best-practices, cryptography
 
@@ -306,7 +306,7 @@ I've emphasized **Time** a lot because it's important to understand that, in the
 
 Though the algorithms that I mentioned above can still be trusted because they're popular and even used by some organizations like - NordPass, another password manager that uses XChaCha20 for encryption, I just wanna make a point: stay away from new algorithms and libraries. Let them spend some time in the crypto industry.
 
-## LICENSE
+## Stay with less restricted LICENSE
 
 The simplest one, don't use closed-source libraries or algorithms. Stick with public crypto libraries and algorithms. Always check the LICENSE otherwise, it could lead to legal issues. Usually, a trusted library's and an algorithm's LICENSES are short and clear. Less restricted and open-source libraries and algorithms are often more battle-tested. As mentioned in [Memo to the Amateur Cipher Designer](https://www.schneier.com/crypto-gram/archives/1998/1015.html#cipherdesign) by Bruce Schneier, if an algorithm is patented, no one will analyze it for you (unless you pay them). Why should they work for you for free?
 
