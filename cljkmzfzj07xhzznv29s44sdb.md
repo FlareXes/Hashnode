@@ -1,7 +1,7 @@
 ---
 title: "Cryptography for Developers and Best Practices"
-seoTitle: "Cryptography For Developers & Best Practices"
-seoDescription: "Sometimes it is misunderstood that developers should know the maths behind the cryptographic algorithm. Which is such a myth. They don't need to worry about"
+seoTitle: "Cryptography For Developers and Best Practices"
+seoDescription: "Before we get started with the developer side of cryptography, we need to understand a few basic things that are common across all the applications of Crypt"
 datePublished: Sat Jul 01 2023 23:30:39 GMT+0000 (Coordinated Universal Time)
 cuid: cljkmzfzj07xhzznv29s44sdb
 slug: cryptography-for-developers-and-best-practices
@@ -242,7 +242,7 @@ Bitwarden password manager is a fantastic example; they don't write any cryptogr
 
 Bruce Schneier once said "Anyone, from the most clueless amateur to the best cryptographer, can create an algorithm that he himself can't break." also known as **Schneier's Law**.
 
-I'm not saying you should never write a crypto algorithm otherwise who will give us more good crypto libraries and algorithms? I'm just saying, don't use them in production if it doesn't satisfy all [Rules of Thumb](https://flarexes.com/cryptography-for-developers#heading-rules-of-thumb).
+I'm not saying you should never write a crypto algorithm otherwise who will give us more good crypto libraries and algorithms? I'm just saying, don't use them in production if it doesn't satisfy all the mentioned [best practices](https://fireflaredb.hashnode.dev/cryptography-for-developers-and-best-practices#heading-best-practices-to-follow-in-cryptography).
 
 You should definitely read this short article by Bruce Schneier If you want to be a good Cipher Designer in the future - [Memo to the Amateur Cipher Designer](https://www.schneier.com/crypto-gram/archives/1998/1015.html#cipherdesign).
 
