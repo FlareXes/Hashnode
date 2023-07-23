@@ -1,10 +1,10 @@
 ---
-title: "File Sharing Via cURL"
+title: "File Sharing Using cURL"
 seoTitle: "Share Files Using cURL"
 seoDescription: "THE NULL POINTER allows you to create an HTTP POST request to send a file very quickly from terminal via cURL."
 datePublished: Fri Jun 24 2022 10:14:26 GMT+0000 (Coordinated Universal Time)
 cuid: cl4saqmoh06u49vnve5jn3fqd
-slug: file-sharing-via-curl
+slug: file-sharing-using-curl
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1656067573080/H46nhwNv0.jpg
 tags: curl, terminal, cli, fzf, fileshare
 
