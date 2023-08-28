@@ -139,7 +139,7 @@ This is one of the most marketed features of many password managers for selling 
 
 ### Encrypted File Storage
 
-There are very niche cases where you will store attachments in a password manager. Having a separate encrypted file storage provider would be a much better option. Of course, in the business world possibilities are endless. For personal usage, of course, you can store recovery codes pdfs, but first I don't recommend it as discussed above in, Should you store *recovery phases* in the Notes field? section, and secondly, I could just copy and paste them in a secure notes section if I really want to. But you can save your driver's license or government ID telling the password manager exactly who you are. Security isn't the only thing I care about, Privacy is also important to me, which ends up making me paranoid.
+There are very niche cases where you will store attachments in a password manager. Having a separate encrypted file storage provider would be a much better option. Of course, in the business world possibilities are endless. For personal usage, of course, you can store recovery codes pdfs, but first I don't recommend it as discussed above in the, [Should you store *recovery phases* in the Notes field?](https://fireflaredb.hashnode.dev/unveiling-the-hidden-gems-enhance-your-password-managers-potential?showSharer=true#heading-should-you-store-recovery-phases-in-the-notes-field) section, and secondly, I could just copy and paste them in a secure notes section if I really want to. But you can save your driver's license or government ID telling the password manager exactly who you are. Security isn't the only thing I care about, Privacy is also important to me, which ends up making me paranoid.
 
 ## My Password Manager Recommendation
 
