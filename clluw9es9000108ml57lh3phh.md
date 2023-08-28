@@ -151,7 +151,7 @@ Yep! Everyone's most favorite and never-ending topic, Top 5 Password Managers Th
 | 2. | Proton Pass | ✅ | ✅ | Best E-Mail Aliasing Integration |
 | 3. | 1Password | ❌ | ❌ | Best Suited For Businesses |
 | 4. | KeePassXC | ✅ | ✅ | Offline Password Manager, Highly Customizable, For High Threat Models |
-| 5. | Pass | ✅ | ✅ | Offline Password Manager, Only For Nerdiest Guys, \[more below\](###Password-Store aka Pass) |
+| 5. | Pass | ✅ | ✅ | Offline Password Manager, Only For Nerdiest Guys, [More below](https://flarexes.com/unveiling-the-hidden-gems-enhance-your-password-managers-potential#heading-password-store-aka-pass) |
 
 Password managers that I have used by now are: LastPass, RoboForm, NordPass, Bitwarden, KeePassXC, and Pass including [OffSync](https://github.com/FlareXes/offsync) my own stateless password manager, I know that's stupid you should never use your own password managers. I do that for my understanding purpose of password manager. Keeping this aside, for me the **combination of Bitwarden and KeePassXC always works the best**.
 
