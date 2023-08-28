@@ -46,7 +46,7 @@ To avoid any alteration in resources or information, we implement an **Integrity
 
 #### **Authentication**
 
-We can say authentication means proving *Who Are You?* We have lots of examples of Authentication in the real world like Login Page, Forget Password, 2FA, etc. where you have to provide relevant information to prove *Who Are You?* Authentication can be achieved in different ways, but the majority of authentication methods include things like -
+We can say authentication means proving *Who You Are.* We have lots of examples of Authentication in the real world like Login Page, Forget Password, 2FA, etc. where you have to provide relevant information to prove *Who You Are.* Authentication can be achieved in different ways, but the majority of authentication methods include things like -
 
 * **Something You Know**, Like Password
     
@@ -131,22 +131,22 @@ Without Asymmetric Cryptography
 
 and the list goes on...
 
-> **Note:** Integrity, Authentication, and Non-repudiation mechanism can only be possible via Asymmetric cryptography.
+> **Note:** Integrity, Authentication, and Non-repudiation mechanisms can only be possible via Asymmetric cryptography.
 
-## Encryption vs Hashing vs Encoding
+## Encryption vs. Hashing vs. Encoding
 
 Sometimes people get confused between these different terms. Or they use them interchangeably, even technical individuals. So let's first clear this confusion with these few lines I always say when explaining this to anyone.
 
 1. Encrypted Data Can Be Decrypted.
     
-2. Hashed Data Can't Be De-hashed.
+2. Hashed Data Can Not Be De-hashed.
     
 3. Encoded Data Can Be Decoded.
     
 
 ### Encryption
 
-Encryption is used to secure data, communication with a key or password. Once data is turned into ciphertext with a key, we will need the key again in the future to get the data back. That means **Encrypted Data Can Be Decrypted**. We already discussed encryption above, its working, and its types. So, we'll move on to hashing.
+Encryption is used to secure data or communication with a key or password. Once data is turned into ciphertext with a key, we will need the key again in the future to get the data back. That means **Encrypted Data Can Be Decrypted**. We already discussed encryption above, its working, and its types. So, we'll move on to hashing.
 
 ### Hashing
 
