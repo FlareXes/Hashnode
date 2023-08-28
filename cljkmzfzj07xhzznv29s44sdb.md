@@ -20,6 +20,8 @@ After all, they think it's complex and doesn't need to worry about it because th
 
 Before we get started with the developer side of cryptography, we need to understand a few basic things that are common across all the applications of Cryptography. In the next few sections, we will see why Cryptography is even needed. Misconceptions that we usually have, and what are the majority of things we use as developers?
 
+> If you already know Cryptography basics you can directly jump to [Best Practices](https://flarexes.com/cryptography-for-developers-and-best-practices#heading-best-practices-to-follow-in-cryptography).
+
 Before I go any further, I want you to know that this is only the tip of the iceberg in cryptography, but it's almost (60% to 80%, this is absurd) a complete iceberg for developers. Whatever I'll explain here is my experience, and I'm not an expert in Cryptography. So, feel free to correct me in the comments section.
 
 ## What is the Cryptography?
@@ -27,6 +29,8 @@ Before I go any further, I want you to know that this is only the tip of the ice
 If you're completely new to this. Then there is a definition from Wikipedia: *Cryptography is about constructing and analyzing protocols that prevent third parties or adversaries from reading your private messages. Modern cryptography exists at the intersection of mathematics, computer science, information security, electrical engineering, digital signal processing, physics, and others.* Easy enough, ya! I know that.
 
 So, Just getting good at maths isn't gonna make you good at cryptography. You have to think about other things too. But, as developers, we only need two things from this definition. First, **prevent third parties from reading private info** and second, **computer science**. This part we already know.
+
+> If you already know Cryptography basics you can directly jump to [Best Practices](https://flarexes.com/cryptography-for-developers-and-best-practices#heading-best-practices-to-follow-in-cryptography).
 
 ### How does cryptography secure data?
 
@@ -182,6 +186,8 @@ CiAgZWxzZQoJICB3aW5kb3cuY2xlYXJJbnRlcnZhbCh0ZW1wKTsKfTsK
 ```
 
 Now, you can go to [CyberChef](https://gchq.github.io/CyberChef/) and try to decode this.
+
+> If you already know Cryptography basic you can directly jump to [Best Practices](https://flarexes.com/cryptography-for-developers-and-best-practices#heading-best-practices-to-follow-in-cryptography).
 
 ## Key Derivation Function
 
