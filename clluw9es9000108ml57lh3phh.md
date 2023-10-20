@@ -7,6 +7,7 @@ cuid: clluw9es9000108ml57lh3phh
 slug: hidden-gems-of-password-managers
 canonical: https://flarexes.com/hidden-gems-of-password-managers
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1693227467678/e4584730-4a55-4793-8755-2933aa228e79.gif
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1697770685477/6c09fc8c-17b5-4a8f-b01a-f168cad22b4a.gif
 tags: productivity, security, privacy, tips, passwords
 
 ---
