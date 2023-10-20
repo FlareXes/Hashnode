@@ -1,4 +1,13 @@
-## Parrot OS Weird Docker Installation Issues
+---
+title: "Parrot OS Weird Docker Installation Issues"
+datePublished: Tue Jul 12 2022 07:48:17 GMT+0000 (Coordinated Universal Time)
+cuid: cl5hvfzu8045ys3nv4x6ta87n
+slug: parrot-os-weird-docker-installation-issues
+canonical: https://flarexes.com/parrot-os-weird-docker-installation-issues
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1657612362593/S356gPkkc.jpg
+tags: operating-system, linux, docker, cli, hacking
+
+---
 
 Parrot OS is a privacy-focused penetration testing operating system. Which comes bundled with many pentesting or hacking tools. But, sometimes we need to install something else like `Docker`. Which prompts a weird issue. Something like that.
 
