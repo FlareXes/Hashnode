@@ -1,4 +1,13 @@
-# How to Setup and Autofill OTP Using Pass-OTP?
+---
+title: "How to Setup and Autofill OTP Using Pass-OTP?"
+datePublished: Mon Dec 19 2022 12:41:02 GMT+0000 (Coordinated Universal Time)
+cuid: clbuscs8y000a08mk0w6a4dg3
+slug: how-to-setup-and-autofill-otp-using-pass-otp
+canonical: https://flarexes.com/how-to-setup-and-autofill-otp-using-pass-otp
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671453005898/RWAQUNkgg.jpg
+tags: linux, security, bash, automation, passwords
+
+---
 
 If you spend a lot of time in front of a computer and prefer to use a keyboard over a mobile phone, you may have encountered the hassle of TOTP (Time-based one-time password) authentication. Entering the TOTP code from your mobile phone manually every time you need to authenticate can be a hassle. Yes, We can get an autofill TOTP functionality from services like `1password`, and `Bitwarden` but they all are paid. Most 2FA service providers require you to share your email address and phone number, which may be a concern for some people who value their privacy. This is bit of a concern for me too. Hmm! So, I decided to automate this problem using my bash skills.
 
