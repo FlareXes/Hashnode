@@ -5,6 +5,7 @@ seoDescription: "Password manager is a tool without which nobody can imagine the
 datePublished: Mon Aug 28 2023 13:07:27 GMT+0000 (Coordinated Universal Time)
 cuid: clluw9es9000108ml57lh3phh
 slug: hidden-gems-of-password-managers
+canonical: https://flarexes.com/hidden-gems-of-password-managers
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1693227467678/e4584730-4a55-4793-8755-2933aa228e79.gif
 tags: productivity, security, privacy, tips, passwords
 
