@@ -1,5 +1,5 @@
 ---
-title: "Hidden Gems of Password Manager's"
+title: "Hidden Gems of Password Managers"
 seoTitle: "How to make Password Managers more secure?"
 seoDescription: "Password manager is a tool without which nobody can imagine their life in IT. It makes us more secure, private, and productive. In this blog from FlareXes"
 datePublished: Mon Aug 28 2023 13:07:27 GMT+0000 (Coordinated Universal Time)
