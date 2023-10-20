@@ -1,4 +1,15 @@
-## The Applications Of Matrices In Cryptography
+---
+title: "The Applications Of Matrices In Cryptography"
+seoTitle: "Applications Of Matrices In Cryptogr"
+seoDescription: "Mathematics plays a very significant role in various domains of Information Technology. I will explain how cryptography depends upon matrix with AES 128 bit"
+datePublished: Mon Feb 14 2022 13:06:16 GMT+0000 (Coordinated Universal Time)
+cuid: ckzmpmuun025qo2s145ib5fnw
+slug: the-applications-of-matrices-in-cryptography
+canonical: https://flarexes.com/the-applications-of-matrices-in-cryptography
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1644837915421/etPy8rWSI.png
+tags: security, cryptography, mathematics, cybersecurity-1
+
+---
 
 When it comes to IT, I always try to make something helpful for my Team just not copying and pasting the stuff from the internet. So, I decided that rather than just writing some examples of matrices let's do some more technical and researched based stuff and focus on one thing.
 
