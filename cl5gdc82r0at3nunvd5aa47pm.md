@@ -1,8 +1,18 @@
-## cURL An Alternative To Many Applications. Here Is How?
+---
+title: "cURL An Alternative To Many Applications. Here Is How?"
+datePublished: Mon Jul 11 2022 06:33:41 GMT+0000 (Coordinated Universal Time)
+cuid: cl5gdc82r0at3nunvd5aa47pm
+slug: curl-an-alternative-to-many-applications-here-is-how
+canonical: https://flarexes.com/curl-an-alternative-to-many-applications-here-is-how
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1657520550106/98bsljhMo.png
+tags: curl, linux, terminal, cli, linux-for-beginners
+
+---
 
 The world is very dependent on browsers for even doing simple tasks. File sharing, checking public IP addresses, weather forecast, internet speed tests and other stuff that we IT forks do sometimes like - using neofetch, cheatsheets and DNS checks etc, are not really suckless ways to use. Because why you wanna download thousands of lines of code just to check system configuration (neofetch), this is bloated. So, today we'll see a suckless way to achieve this whole stuff from terminal using **cURL**. Let's go ahead and do some less bloated IT ninja stuff.
 
 # Public IP Address
+
 Getting a current network public IP address. Sometimes seems important or we just wanna know. So, don't need open the browser. Just try
 
 ```bash
@@ -12,6 +22,7 @@ curl http://ifconfig.co/ip
 This will simply return your public IP on stdout.
 
 ## Get Reboust Info From Public IP Address
+
 Curious about what possibly website see just from your IP address? If yes, I gotch you. Type...
 
 ```bash
@@ -27,42 +38,70 @@ curl -s http://ip-api.com/json?fields=continent,continentCode,country,countryCod
 You can add more comma-separated fields to specifically get what you want.
 
 **Possible Fields**
-- status
-- message
-- continent
-- continentCode
-- country
-- countryCode
-- region
-- regionName
-- city
-- district
-- zip
-- lat
-- lon
-- timezone
-- offset
-- currency
-- isp
-- org
-- as
-- asname
-- reverse
-- mobile
-- proxy
-- hosting
-- query
+
+* status
+    
+* message
+    
+* continent
+    
+* continentCode
+    
+* country
+    
+* countryCode
+    
+* region
+    
+* regionName
+    
+* city
+    
+* district
+    
+* zip
+    
+* lat
+    
+* lon
+    
+* timezone
+    
+* offset
+    
+* currency
+    
+* isp
+    
+* org
+    
+* as
+    
+* asname
+    
+* reverse
+    
+* mobile
+    
+* proxy
+    
+* hosting
+    
+* query
+    
 
 ### Json Fix?
-All the above robust commands will return a JSON representation which needs to be formed to look good. So, for that, we need a tool, `jq`.
-You can install it depending on your platform.
+
+All the above robust commands will return a JSON representation which needs to be formed to look good. So, for that, we need a tool, `jq`. You can install it depending on your platform.
 
 **For Debian/Ubuntu Based OS**
+
 ```bash
 sudo apt install jq
 ```
 
 **For Arch Based OS**
+
 ```bash
 sudo pacman -Sy jq
 ```
@@ -75,7 +114,8 @@ So, let's print the public info in proper JSON format.
 curl -s http://ip-api.com/json?fields=66846719 | jq
 ```
 
-This will output something like that 
+This will output something like that
+
 ```JSON
 {
   "query": "24.48.0.1",
@@ -101,12 +141,15 @@ This will output something like that
 ```
 
 # Get DNS provider
+
 ```bash
 curl -L http://edns.ip-api.com/json | jq
 ```
+
 This will return your DNS provider and DNS server IP address.
 
 # Quick URL Shorten
+
 ```bash
 curl -F url=<link> https://shorta.link
 ```
@@ -136,6 +179,7 @@ https://shorta.link/flarexes
 ```
 
 # Better Way To *File Transfer*
+
 This one is my favourite even though I actually wrote an article on that, [File sharing from terminal which suck less](https://flarexes.com/file-sharing-via-curl). Let's see, How does it work?
 
 Working is very simple we gonna use [0x0.st](https://0x0.st). This site accepts the location of a file that you wanna share and then return a shareable link.
@@ -145,6 +189,7 @@ curl -F 'file=@<file location>' https://0x0.st
 ```
 
 It would be like this
+
 ```txt
 ┌─[✗]─[radowoo@SecOS]─[~]
 └──╼ $curl -F 'file=@/home/radowoo/Desktop/test' https://0x0.st
@@ -155,8 +200,8 @@ https://0x0.st/o1oR.txt
 This is the best way. I ever found to share the files. Don't forget to check out the [File Sharing Via cURL](https://flarexes.com/file-sharing-via-curl) for more info.
 
 # Cheatsheets
-A very simple and quick way to see a cheatsheet about many commands.
-For that we gonna use [cheat.sh](http://cheat.sh/). 
+
+A very simple and quick way to see a cheatsheet about many commands. For that we gonna use [cheat.sh](http://cheat.sh/).
 
 The only cheat sheet you need Unified access to the best community-driven documentation repositories in the world.
 
@@ -230,7 +275,8 @@ Simple sort and sweet. Their home page is also very cool and informative. Have a
 ```
 
 # Random Jokes
-Sometimes, We just want that. Sometimes 🤔 
+
+Sometimes, We just want that. Sometimes 🤔
 
 ```bash
 curl https://icanhazdadjoke.com
@@ -239,6 +285,7 @@ curl https://icanhazdadjoke.com
 That's set...
 
 # Text To QR Code
+
 I don't know how many of you will do that. But yaa! we have an option for that. You can generate a QR code which will consist of text or string? And, Of course, this works perfect on the terminal.
 
 ```bash
@@ -246,17 +293,20 @@ curl qrenco.de/this_is_my_text
 ```
 
 You can also share multiple lines like that
+
 ```bash
 printf "two\nlines" | curl -F-=\<- qrenco.de
 ```
 
 But, The way I prefer is to read text from a file
+
 ```bash
 cat myfile.sh | curl -F-=\<- qrenco.de
 ```
 
 # Weather In Console
-Stop using an application to check the weather. That ask for location. I don't want that. We have a better way or the right way to ~~check~~ curl the weather!
+
+Stop using an application to check the weather. That ask for location. I don't want that. We have a better way or the right way to <s>check</s> curl the weather!
 
 Just do...
 
@@ -288,25 +338,26 @@ Follow @igor_chubin for wttr.in updates
 [wttr.in](https://wttr.in) provides you more control over how you wanna see the weather information for that check out their [GitHub Repo](https://github.com/chubin/wttr.in).
 
 # Execute Script Without Downloading Them
-Have you ever used neofetch? Or Did you ever try to test your internet speed? If yes! Then, stop doing that because you can achieve these simple tasks from the command line via cURL. 
+
+Have you ever used neofetch? Or Did you ever try to test your internet speed? If yes! Then, stop doing that because you can achieve these simple tasks from the command line via cURL.
 
 But, You may think. Why would I encourage you not to download neofetch? Because I'm not a big fan of tools that just gives some system info using an 11k line of code. Yes, that's true. I think we can get this information via creating our own script but If you still want that 11k line of codes, then use them without downloading. Here is how.
 
-```curl 
+```plaintext
 curl -sL https://raw.githubusercontent.com/dylanaraps/neofetch/master/neofetch | bash
 ```
 
 Above command will simply fetch the neofetch script from GitHub temporarily and then execute it from bash. And, This will be removed when it's done.
 
-But, There are several awesome utilities on GitHub. That you may wanna use some time just like *Internet Speed Test*. For that, just do 
+But, There are several awesome utilities on GitHub. That you may wanna use some time just like *Internet Speed Test*. For that, just do
 
-```curl
+```plaintext
 curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -
 ```
 
 # Make Thing Simpler
-All the above commands are not supposed to be typed every time you use them. Instead, these all should be aliased into a `.zshrc` or `.bashrc` files.
-So, I did that for you.
+
+All the above commands are not supposed to be typed every time you use them. Instead, these all should be aliased into a `.zshrc` or `.bashrc` files. So, I did that for you.
 
 ```bash
 # Returns Public IP Address
