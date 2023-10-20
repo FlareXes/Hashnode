@@ -5,6 +5,7 @@ seoDescription: "Before we get started with the developer side of cryptography, 
 datePublished: Sat Jul 01 2023 23:30:39 GMT+0000 (Coordinated Universal Time)
 cuid: cljkmzfzj07xhzznv29s44sdb
 slug: cryptography-for-developers-and-best-practices
+canonical: https://flarexes.com/cryptography-for-developers-and-best-practices
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1688258379447/a3923b1f-b9be-430f-883f-2b205bd8a6ae.png
 tags: python, security, developer, best-practices, cryptography
 
