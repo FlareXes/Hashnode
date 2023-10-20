@@ -4,6 +4,7 @@ seoDescription: "SearXNG respects user's privacy and also provide high quality r
 datePublished: Sat Apr 22 2023 03:02:52 GMT+0000 (Coordinated Universal Time)
 cuid: clgreaw3c00010al4gy2c7uj0
 slug: build-your-own-private-search-engine-with-searxng
+canonical: https://flarexes.com/build-your-own-private-search-engine-with-searxng
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1682133028522/1e3c1886-1420-49da-9604-b9acc771610b.png
 tags: docker, programming, security, devops, searxng
 
