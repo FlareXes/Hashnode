@@ -3,6 +3,7 @@ title: "Linux Firejail: Securely Throw Untrusted Applications Behind Bars"
 datePublished: Sat Dec 16 2023 07:01:35 GMT+0000 (Coordinated Universal Time)
 cuid: clq7pmlro000508l2hud6cyxz
 slug: linux-firejail-securely-throw-untrusted-applications-behind-bars
+canonical: https://flarexes.com/linux-firejail-securely-throw-untrusted-applications-behind-bars
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1702709625069/abb4aed9-f8f3-42c1-b9dd-8dba8bb7fd1c.jpeg
 tags: linux, security, privacy, sandbox, firejail
 
