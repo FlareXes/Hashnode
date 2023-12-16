@@ -9,7 +9,7 @@ tags: linux, security, bash, automation, passwords
 
 ---
 
-If you spend a lot of time in front of a computer and prefer to use a keyboard over a mobile phone, you may have encountered the hassle of TOTP (Time-based one-time password) authentication. Entering the TOTP code from your mobile phone manually every time you need to authenticate can be a hassle. Yes, We can get an autofill TOTP functionality from services like `1password`, and `Bitwarden` but they all are paid. Most 2FA service providers require you to share your email address and phone number, which may be a concern for some people who value their privacy. This is bit of a concern for me too. Hmm! So, I decided to automate this problem using my bash skills.
+If you spend a lot of time in front of a computer and prefer to use a keyboard over a mobile phone, you may have encountered the hassle of TOTP (Time-based one-time password) authentication. Entering the TOTP code from your mobile phone manually every time you need to authenticate can be a hassle. Yes, We can get an autofill TOTP functionality from services like `1password`, but for premium users. Most 2FA service providers require you to share your email address and phone number, which may be a concern for some people who value their privacy. This is bit of a concern for me too. Hmm! So, I decided to automate this problem using my bash skills.
 
 Before we deep dive, If you aren't using any sort of **2FA** to secure your online accounts, then it's bad not using 2FA leaves your accounts vulnerable to unauthorized access. So just start using one. I like to use **Authy** before I wrote this utility. `Authy` is the only trusted player in the TOTP 2FA market which provide support for desktop application including Linux, Windows and macOS. While Google and Microsoft also offer 2FA solutions, their support for desktop applications is more limited compared to Authy.
 
@@ -282,7 +282,7 @@ Save it as `passrofi` under `/usr/local/bin`, then give `passrofi` executable pe
 $ sudo chmod +x /usr/local/bin/passrofi
 ```
 
-You can always find an updated version of `passrofi` on my GitHub [@FlareXes](https://github.com/FlareXes/Micro-Utils/blob/main/bin/passrofi).
+You can always find an updated version of `passrofi` on my GitHub [@FlareXes](https://github.com/FlareXes/passrofi).
 
 ## Binding keyboard shortcut with `passrofi`
 
@@ -383,8 +383,8 @@ That's it now you're good to go.
 
 # Conclusion
 
-`Pass` and `Pass Otp` are two amazing utilities that are only used by very few people around the world. Those few people include privacy and security-conscious individuals or computer nerds. But, this `passrofi` thing can be addictive once you start using it and get the game. If you are still stuck and want to see a proper walkthrough then I got you covered, I'll also create a video version of this blog on my youtube channel [FlareXes](https://youtube.com/FlareXes_) very soon, so stay tuned.
+`Pass` and `Pass Otp` are two amazing utilities that are only used by very few people around the world. Those few people include privacy and security-conscious individuals or computer nerds. But, this `passrofi` thing can be addictive once you start using it and get the game.
 
-If you find this process hard to set up then no problem you can watch the step-by-step guide on YouTube. But remember, we should always use better 2fa systems like TOTP or Security Keys like Yubico. I recommend `Authy` due to its flexibility but `Authy` is closed-source and ask for personal information. From now I'll gonna stick with `passrofi`. A better and suckless way to handle 2FA.
+So, always use better 2FA systems like TOTP or Security Keys like Yubico. I recommend `Authy` due to its flexibility but `Authy` is closed-source and ask for personal information. From now I'll gonna stick with `passrofi`. A better and suckless way to handle 2FA. Lastly don't forget to check out latest version [Passrofi](https://github.com/FlareXes/passrofi) on my [GitHub](https://github.com/FlareXes/passrofi).
 
 Thanks for hanging around!
