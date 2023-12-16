@@ -1,10 +1,10 @@
 ---
-title: "A Fast, Secure Cloud Storage Sync For Linux"
+title: "Stroj: Fast & Secure Cloud Storage"
 seoTitle: "sync files to cloud in linux"
-seoDescription: "Stroj allow users to upload files and folders to cloud for free up to 150 GB. This also provides cli utility which make easier to sync file in linux."
+seoDescription: "Stroj allow users to upload files and folders to cloud for free up to 25 GB. This also provides cli utility which make easier to sync file in linux."
 datePublished: Fri Jul 08 2022 14:38:04 GMT+0000 (Coordinated Universal Time)
 cuid: cl5ckbkvb077lcunv8olr7bk2
-slug: a-fast-secure-cloud-storage-sync-for-linux
+slug: stroj-fast-secure-cloud-storage
 canonical: https://flarexes.com/a-fast-secure-cloud-storage-sync-for-linux
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1657289407261/5P4yJXYLl.png
 tags: cloud, linux, sync, cloud-storage, storj
@@ -25,9 +25,7 @@ Yes, Storj does not provide an auto-sync facility like OneDrive. But It provides
 
 Then, why don't we use AWS S3? That also provides AWS CLI utility because It's not free and cheap. It is expensive... But you know what, Storj provides 150 GB for free and If you wanna expand then it's cheaper than AWS.
 
-One more reason is **Decentralization**.
-
-## Storj Privacy And Security
+## Storj's Privacy And Security
 
 As I said earlier Storj follows the Zero-Trust security model which means do not trust anybody and verify everything every time. Storj is designed to be highly secure and that's what I love about them. They are very open to sharing how things work behind the scenes on their website for that check out they're [How It Works](https://www.storj.io/how-it-works) section.
 
@@ -116,9 +114,9 @@ But, Why did we use AWS CLI? Because It's better and more flexible, Simple. And 
 
 # One Problem With Stroj
 
-Stroj provides superb functionality for free (Till 150 GB at least). But Storj is a relevantly new player in the market with a different approach to storing data securely. There is always a risk of trust. Which may sometime knock you. In my case, I don't trust any cloud provider to store my confidential information. I usually use cloud storage to sync my projects and some non-confidential data.
+Stroj provides superb functionality for free (Till 25 GB at least). But Storj is a relevantly new player in the market with a different approach to storing data securely. There is always a risk of trust. Which may sometime knock you. In my case, I don't trust any cloud provider to store my confidential information. I usually use cloud storage to sync my projects and some non-confidential data.
 
-So, I believe in future Stroj will gonna think about that. For now they do what they say
+So, I believe in future Stroj will gonna think about that. For now they do what they say:
 
 > A Fast, secure cloud storage at a fraction of the cost.
 
