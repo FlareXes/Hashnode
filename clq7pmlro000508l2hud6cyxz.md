@@ -193,7 +193,7 @@ After refining the custom profile, launch the application using it with the foll
 
 This command initiates the application `my-app` within a sandboxed environment, harnessing the tailored security measures you've crafted.
 
-### Desktop Integration with ***Firecfg***
+## Desktop Integration with ***Firecfg***
 
 Firecfg is command-line utility comes pre-packaged with firejail. It allow users to streamline the process of desktop integration.
 
