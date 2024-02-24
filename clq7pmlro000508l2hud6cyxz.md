@@ -193,6 +193,30 @@ After refining the custom profile, launch the application using it with the foll
 
 This command initiates the application `my-app` within a sandboxed environment, harnessing the tailored security measures you've crafted.
 
+### Desktop Integration with ***Firecfg***
+
+Firecfg is command-line utility comes pre-packaged with firejail. It allow users to streamline the process of desktop integration.
+
+Below command will create symbolic link of every possible application installed on your system. These symbolic links will allow the applications to start under Firejail automatically, and you can also launch apps from menu without any further modification.
+
+```bash
+sudo firecfg
+```
+
+List all firejail symbolic links.
+
+```bash
+firecfg --list
+```
+
+Remove all firejail symbolic links.
+
+```bash
+sudo firecfg --clean
+```
+
+It's important to note that by default **Firecfg** will use default profiles relative to the applications.
+
 # Conclusion
 
 In a world full of digital risks, securing our online activities is crucial. Firejail stands out as a flexible solution, offering a middle ground between high-security options like Qubes or Whonix and the practical needs of everyday use cases.
