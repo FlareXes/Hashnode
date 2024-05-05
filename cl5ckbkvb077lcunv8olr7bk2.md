@@ -1,5 +1,5 @@
 ---
-title: "Stroj: Fast & Secure Cloud Storage"
+title: "[ ⚠️ Outdated ] Stroj: Fast & Secure Cloud Storage"
 seoTitle: "sync files to cloud in linux"
 seoDescription: "Stroj allow users to upload files and folders to cloud for free up to 25 GB. This also provides cli utility which make easier to sync file in linux."
 datePublished: Fri Jul 08 2022 14:38:04 GMT+0000 (Coordinated Universal Time)
