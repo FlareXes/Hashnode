@@ -1,11 +1,11 @@
 ---
-title: "Session Hijacking: Hacker's way to get access to any online account"
-seoTitle: "Session Hijacking: Hacker's way to get access to any online account"
+title: "Why Does Session Hijacking Exist & How it Works? - Cookies vs. HTTP Headers"
 seoDescription: "Learn about session hijacking, its prevention, and how it exploits HTTP flaws to access online accounts like social media and crypto wallets"
 datePublished: Thu Dec 26 2024 23:30:55 GMT+0000 (Coordinated Universal Time)
 cuid: cm55yj79d000008k1eqe0fimj
-slug: session-hijacking-hackers-way-to-get-access-to-any-online-account
-tags: cookies, programming-blogs, http, web-development, security, hacking, cybersecurity-1
+slug: why-does-session-hijacking-exist-how-it-works-cookies-vs-http-headers
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1735465673463/bc1b2860-721c-4c01-8861-67e874d9cc18.jpeg
+tags: cookies, programming-blogs, http, web-development, security, hacking, cybersecurity, cybersecurity-1
 
 ---
 
