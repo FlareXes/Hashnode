@@ -11,7 +11,12 @@ tags: linux, hacking, cybersecurity-1, tryhackme
 
 # Overview
 
-**Lookup** is a Linux machine challenge where we first encounter a login webpage. The login page responds differently depending on whether the user exists. After enumerating valid usernames, we brute-force credentials for the found user using Hydra. After a successful login, we are redirected to `ElFinder`, a web file manager vulnerable to PHP command injection. We modify the script for Python 3.
+| Room | [https://tryhackme.com/r/room/lookup](https://tryhackme.com/r/room/lookup) |
+| --- | --- |
+| Difficulty | Easy, But Not an Hour Easy |
+| Room Author | @[josemlwdf](https://tryhackme.com/p/josemlwdf) on TryHackMe[](https://tryhackme.com/p/josemlwdf) |
+
+[**Lo**](https://tryhackme.com/p/josemlwdf)**okup** is a Linux machine challenge where we first encounter a login webpage. The login page responds differently depending on whether the user exists. After enumerating valid usernames, we brute-force credentials for the found user using Hydra. After a successful login, we are redirected to `ElFinder`, a web file manager vulnerable to PHP command injection. We modify the script for Python 3.
 
 After gaining initial access as the `www-data` user, we enumerate and find a user `think` along with an ELF SUID executable `/usr/sbin/pwm`. This SUID executable runs the `id` command to impersonate the current user and read the `/home/<current_user>/.passwords` file. Since `PWM` doesn’t use an absolute path, we create our own `id` executable under `/tmp/id` and add it to the `PATH` to impersonate user `think`.
 
