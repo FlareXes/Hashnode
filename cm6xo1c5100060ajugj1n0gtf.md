@@ -5,6 +5,7 @@ datePublished: Sun Feb 09 2025 13:34:21 GMT+0000 (Coordinated Universal Time)
 cuid: cm6xo1c5100060ajugj1n0gtf
 slug: my-take-on-ceh-vs-ejpt-harsh-truth-straightforward-advice-for-cybersecurity-enthusiasts
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739107612431/5b625bad-1ae7-4431-824d-2d4e74965ddf.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1739108243476/5d099d36-dfa2-4a64-a7a7-645a13c2f482.png
 tags: hacking, certification, cybersecurity-1
 
 ---
