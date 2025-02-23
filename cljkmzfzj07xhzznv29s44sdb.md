@@ -1,10 +1,10 @@
 ---
-title: "Cryptography for Developers and Best Practices"
+title: "Cryptography 101: A Developer's Guide to Secure Coding"
 seoTitle: "Cryptography For Developers and Best Practices"
 seoDescription: "Before we get started with the developer side of cryptography, we need to understand a few basic things that are common across all the applications of Crypt"
 datePublished: Sat Jul 01 2023 23:30:39 GMT+0000 (Coordinated Universal Time)
 cuid: cljkmzfzj07xhzznv29s44sdb
-slug: cryptography-for-developers-and-best-practices
+slug: cryptography-101-a-developers-guide-to-secure-coding
 canonical: https://flarexes.com/cryptography-for-developers-and-best-practices
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1688258379447/a3923b1f-b9be-430f-883f-2b205bd8a6ae.png
 tags: python, security, developer, best-practices, cryptography
