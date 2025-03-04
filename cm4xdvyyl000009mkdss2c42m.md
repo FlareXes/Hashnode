@@ -3,7 +3,7 @@ title: "Dell XPS for Linux & My Personal Experience"
 seoDescription: "Explore the pros and cons of using a Dell XPS for Linux. Does this high-performance machine justify its challenges for Linux enthusiasts?"
 datePublished: Fri Dec 20 2024 23:30:49 GMT+0000 (Coordinated Universal Time)
 cuid: cm4xdvyyl000009mkdss2c42m
-slug: worst-decision-buying-dell-xps-for-linux-or-was-it
+slug: dell-xps-for-linux-my-personal-experience-review
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1717674477348/dfd1aaed-784f-4b87-8a51-ca1cf517e228.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1734739551162/2aeb2480-98e3-48a9-a106-d021ecb0c3bc.jpeg
 tags: linux, linux-for-beginners, xps-9510, wayland, hyprland, dell-xps, xps
