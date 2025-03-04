@@ -4,7 +4,7 @@ seoTitle: "Set Up Your Own Calendar with Baikal and Morgen"
 datePublished: Tue Mar 04 2025 00:59:49 GMT+0000 (Coordinated Universal Time)
 cuid: cm7ts7lap00010al75hzieeuo
 slug: self-host-your-own-calendar-with-baikal-and-morgen
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741049754410/f14d0678-6ec6-4c1b-ab17-d102a74121c3.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741051033360/bf365e1d-86b4-4bdb-981b-231fc3fdceff.png
 tags: productivity, docker, security, privacy
 
 ---
