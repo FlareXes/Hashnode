@@ -1,5 +1,5 @@
 ---
-title: "Using Linux on Dell XPS & My Personal Experience"
+title: "Dell XPS for Linux & My Personal Experience"
 seoDescription: "Explore the pros and cons of using a Dell XPS for Linux. Does this high-performance machine justify its challenges for Linux enthusiasts?"
 datePublished: Fri Dec 20 2024 23:30:49 GMT+0000 (Coordinated Universal Time)
 cuid: cm4xdvyyl000009mkdss2c42m
