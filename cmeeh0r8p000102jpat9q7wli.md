@@ -4,7 +4,7 @@ seoDescription: "Fix missing directories and external drives in Thunar on Hyprla
 datePublished: Sat Aug 16 2025 16:27:58 GMT+0000 (Coordinated Universal Time)
 cuid: cmeeh0r8p000102jpat9q7wli
 slug: fix-missing-directories-and-external-drives-in-thunar-file-manager-on-hyprland
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755364014841/e28b7b00-ea8a-4824-88a8-e253cf4eea27.png
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/q1vmoQtj97w/upload/1a6ac4321945431417ce0a540802153c.jpeg
 tags: software-development, linux, technology, hashnode, hyprland
 
 ---
