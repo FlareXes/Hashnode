@@ -63,5 +63,7 @@ Hopefully this saves you from the same rabbit hole I went down. Minimal WMs are 
 
 **I'm grateful you took the time to read what I've shared. Until next time —** [**FlareXes**](https://www.linkedin.com/in/flarexes/)
 
-**Further Reading**  
+### **Further Reading**
+
+  
 If you’re exploring Hyprland further, you might also enjoy my [step-by-step guide on configuring essentials like screen lock, brightness, and authentication](https://flarexes.com/hyprland-getting-started-configure-screen-lock-brightness-volume-authentication-and-more).
