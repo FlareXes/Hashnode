@@ -104,7 +104,7 @@ At a high level, SSL 2.0 introduced the core ideas that still exist in modern TL
 * Derivation of a shared session key used to encrypt application data
     
 
-#### What SSL 2.0 Lacked?
+#### **What SSL 2.0 Lacked?**
 
 Despite being the first SSL version deployed in the real world, SSL 2.0 was fundamentally flawed by design.
 
@@ -121,7 +121,7 @@ In 2011, SSL 2.0 was officially deprecated. That same year, [RFC 6176](https://w
 
 Its most important improvement was **cryptographic binding of handshake messages**. Both client and server could verify that negotiation parameters were not altered in transit, eliminating entire classes of downgrade and man-in-the-middle attacks that plagued earlier versions.
 
-#### How SSL 3.0 Protected Traffic?
+#### **How SSL 3.0 Protected Traffic?**
 
 SSL 3.0 first performed a **handshake** to authenticate the server using **X.509 certificates** and negotiate cryptographic parameters. After key exchange, all application data was protected using:
 
@@ -132,9 +132,11 @@ SSL 3.0 first performed a **handshake** to authenticate the server using **X.509
 
 Each record included sequence numbers and protocol metadata, preventing silent modification, replay, and truncation attacks that were possible in SSL 2.0.
 
-#### What SSL 3.0 lacked and led to deprecation?
+#### **SSL 3.0 Security Flaws & It’s Deprecation**
 
 **POODLE** Happened. Stands for **Padding Oracle On Downgraded Legacy Encryption**.
+
+Modern browsers supported TLS, but for backward compatibility they would **fallback to SSL 3.0** if the handshake failed.
 
 This attack against **SSL 3.0** was disclosed in **2014**. POODLE exploited a fundamental weakness in SSL 3.0’s **CBC padding scheme**, allowing attackers, under specific conditions, to recover sensitive data such as authentication cookies.
 
@@ -153,31 +155,5 @@ An attacker who can sit between the client and server can:
     
 
 One byte at a time. Slowly. But reliably.
-
-### Why downgrade mattered
-
-Modern browsers supported TLS, but for backward compatibility they would **fallback to SSL 3.0** if the handshake failed.
-
-Attackers abused this by:
-
-* Interrupting TLS handshakes
-    
-* Forcing clients to retry with SSL 3.0
-    
-* Then exploiting SSL 3.0’s broken padding
-    
-
-So even if TLS was enabled, you were still vulnerable.
-
-### Impact
-
-* HTTPS session cookies could be decrypted
-    
-* Account hijacking was possible
-    
-* Public Wi-Fi made it trivial to exploit
-    
-* Enterprises were exposed without knowing it
-    
 
 # To be continue… TLS
