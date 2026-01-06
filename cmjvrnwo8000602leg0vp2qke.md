@@ -25,7 +25,7 @@ By the way, if you want to go deeper into HTTP how it really works, the lesser-k
 
 ## Netscape: A Story Worth Knowing
 
-[Netscape](https://en.wikipedia.org/wiki/Netscape) itself is a story worth knowing. Founded in 1994 as Netscape Communications Corporation, it arguably contributed more to the early web than any other organization of its time.
+[Netscape](https://en.wikipedia.org/wiki/Netscape) itself is a story worth knowing. Founded in 1994 as Netscape Communications Corporation, has arguably contributed more to the early web than any other organization of its time.
 
 They didn’t just build software. They defined the web:
 
