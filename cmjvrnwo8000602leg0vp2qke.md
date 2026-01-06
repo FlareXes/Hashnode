@@ -5,7 +5,7 @@ seoDescription: "Discover the key differences between SSL and TLS, their histori
 datePublished: Thu Jan 01 2026 18:16:31 GMT+0000 (Coordinated Universal Time)
 cuid: cmjvrnwo8000602leg0vp2qke
 slug: ssl-vs-tls-key-differences-evolution-and-historical-insights
-cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/LuzDJzyUJb8/upload/2fd3430618743614f17e9acca7e66710.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1767666753004/232b9d05-6e7e-480c-928b-d30b7272330c.png
 tags: ssl, hashnode, tls, networking, cybersecurity
 
 ---
