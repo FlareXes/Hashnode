@@ -2,7 +2,7 @@
 title: "Cryptography 101: A Developer's Guide to Secure Coding"
 seoTitle: "Cryptography For Developers and Best Practices"
 seoDescription: "Before we get started with the developer side of cryptography, we need to understand a few basic things that are common across all the applications of Crypt"
-datePublished: Sat Jul 01 2023 23:30:39 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-07-01T23:30:39.109Z
 cuid: cljkmzfzj07xhzznv29s44sdb
 slug: cryptography-101-a-developers-guide-to-secure-coding
 canonical: https://flarexes.com/cryptography-for-developers-and-best-practices
