@@ -2,7 +2,7 @@
 title: "Make the Most of Your Password Manager: Tips, Tricks, and Hidden Features"
 seoTitle: "How to make Password Managers more secure?"
 seoDescription: "Password manager is a tool without which nobody can imagine their life in IT. It makes us more secure, private, and productive. In this blog from FlareXes"
-datePublished: Mon Aug 28 2023 13:07:27 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-08-28T13:07:27.129Z
 cuid: clluw9es9000108ml57lh3phh
 slug: make-the-most-of-your-password-manager-tips-tricks-and-hidden-features
 canonical: https://flarexes.com/hidden-gems-of-password-managers
