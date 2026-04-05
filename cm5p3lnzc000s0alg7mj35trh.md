@@ -1,7 +1,7 @@
 ---
 title: "Hacking Practice: TryHackMe Lookup Room Explained"
 seoDescription: "Guide for TryHackMe Lookup room: covers initial access, root shell, hacking practice, and privilege escalation learning"
-datePublished: Thu Jan 09 2025 09:00:25 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-01-09T09:00:25.896Z
 cuid: cm5p3lnzc000s0alg7mj35trh
 slug: hacking-practice-tryhackme-lookup-room-explained
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736412440479/c6d72928-63de-4822-a2f7-5a8a2e62ef3c.png
