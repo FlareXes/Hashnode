@@ -2,7 +2,7 @@
 title: "Cisco Packet Tracer Installation In Arch OS"
 seoTitle: "how to install cisco packet tracer in arch os"
 seoDescription: "Cisco Packet Tracer is really a handful to learn many computer science concepts. But, installing it on Arch based system require few extra steps."
-datePublished: Fri Oct 21 2022 03:37:12 GMT+0000 (Coordinated Universal Time)
+datePublished: 2022-10-21T03:37:12.395Z
 cuid: cl9hxy56z000009mobbagdm14
 slug: cisco-packet-tracer-installation-in-arch-os
 canonical: https://flarexes.com/cisco-packet-tracer-installation-in-arch-os
