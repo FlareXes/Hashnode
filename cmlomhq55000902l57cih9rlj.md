@@ -1,9 +1,8 @@
 ---
-title: "Can You Modify the Host Kernel from a Docker Container?"
-seoDescription: "Explore the fascinating relationship between Docker containers and the host kernel in this hands-on article. Discover why Docker is faster than virtual mach"
-datePublished: Mon Feb 16 2026 03:36:45 GMT+0000 (Coordinated Universal Time)
+title: "Modify the Host Kernel from a Docker Container"
+datePublished: 2026-02-16T03:36:45.977Z
 cuid: cmlomhq55000902l57cih9rlj
-slug: can-you-modify-the-host-kernel-from-a-docker-container
+slug: modify-the-host-kernel-from-a-docker-container
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1771187350709/002a295d-1eee-45d7-8602-ebef12bea7ab.png
 tags: linux, docker, hashnode, containers, kernel
 
@@ -64,9 +63,9 @@ This one is actually real good. I’m going to use two different Linux flavors j
 
 Like Such:
 
-* Host system = Ubuntu
+*   Host system = Ubuntu
     
-* Container = Arch Linux
+*   Container = Arch Linux
     
 
 You can swap them however you like the distro choice doesn’t matter.
@@ -148,11 +147,11 @@ ubuntu:latest /bin/bash
 
 **Why mount** `/lib/modules` **and** `/usr/src`**?**
 
-* `/lib/modules` contains kernel modules for the running kernel.
+*   `/lib/modules` contains kernel modules for the running kernel.
     
-* `/usr/src` contains kernel headers required to compile modules.
+*   `/usr/src` contains kernel headers required to compile modules.
     
-* We mount them so the container can compile modules against the host kernel.
+*   We mount them so the container can compile modules against the host kernel.
     
 
 Without this, module compilation would fail.
@@ -266,9 +265,15 @@ Docker doesn’t emulate a kernel. It doesn’t clone one. It shares one.
 
 If you enjoy breaking systems apart and understanding what’s *actually* happening underneath the abstraction layer, you might also find these interesting:
 
-* [Hacking Discord: Why Does Session Hijacking Exist & How it Works?](https://flarexes.com/why-does-session-hijacking-exist-how-it-works-cookies-vs-http-headers)
+*   [Hacking Discord: Why Does Session Hijacking Exist & How it Works?](https://flarexes.com/why-does-session-hijacking-exist-how-it-works-cookies-vs-http-headers)
     
-* Most Viewed: [Hyprland Getting-Started: Configure Screen Lock, Authentication and More](https://flarexes.com/hyprland-getting-started-configure-screen-lock-brightness-volume-authentication-and-more).
+*   Most Viewed: [Hyprland Getting-Started: Configure Screen Lock, Authentication and More](https://flarexes.com/hyprland-getting-started-configure-screen-lock-brightness-volume-authentication-and-more).
     
 
 Thanks For Your Time.
+
+## 🎥 Watch the walkthrough
+
+If you want to see everything from kernel modules to Docker internals in action, I recorded a full step-by-step video.
+
+%[https://www.youtube.com/watch?v=lfA4surFhCM]
