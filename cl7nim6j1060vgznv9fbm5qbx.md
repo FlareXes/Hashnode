@@ -1,7 +1,7 @@
 ---
 title: "Brave vs LibreWolf : Privacy and Security Without Conditions 🔏"
 seoDescription: "LibreWolf is a fork of Firefox focused on privacy, security and freedom. LibreWolf removes all the Telemetry of Firefox"
-datePublished: Sun Sep 04 2022 15:55:12 GMT+0000 (Coordinated Universal Time)
+datePublished: 2022-09-04T15:55:12.379Z
 cuid: cl7nim6j1060vgznv9fbm5qbx
 slug: brave-vs-librewolf-privacy-and-security-without-conditions
 canonical: https://flarexes.com/brave-vs-librewolf-privacy-and-security-without-conditions
