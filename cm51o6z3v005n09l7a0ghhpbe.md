@@ -2,7 +2,7 @@
 title: "How to Manage Dotfiles, Install Scripts, and Backups on Linux"
 seoTitle: "Manage Dotfiles and Backups on Linux"
 seoDescription: "Learn to manage dotfiles, installation scripts, and backups for a seamless Linux experience. Ensure smooth setups and solid recovery plans"
-datePublished: Mon Dec 23 2024 23:30:24 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-12-23T23:30:24.187Z
 cuid: cm51o6z3v005n09l7a0ghhpbe
 slug: how-to-manage-dotfiles-install-scripts-and-backups-on-linux
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734010424187/b7324682-ba74-4e67-8641-2bfcc0bd732e.gif
