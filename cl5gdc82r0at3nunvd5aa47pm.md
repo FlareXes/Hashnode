@@ -1,6 +1,6 @@
 ---
 title: "cURL An Alternative To Many Applications. Here Is How?"
-datePublished: Mon Jul 11 2022 06:33:41 GMT+0000 (Coordinated Universal Time)
+datePublished: 2022-07-11T06:33:41.755Z
 cuid: cl5gdc82r0at3nunvd5aa47pm
 slug: curl-an-alternative-to-many-applications-here-is-how
 canonical: https://flarexes.com/curl-an-alternative-to-many-applications-here-is-how
