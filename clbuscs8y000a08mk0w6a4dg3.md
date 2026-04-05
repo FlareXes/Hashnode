@@ -1,6 +1,6 @@
 ---
 title: "How to Setup and Autofill OTP Using Pass-OTP?"
-datePublished: Mon Dec 19 2022 12:41:02 GMT+0000 (Coordinated Universal Time)
+datePublished: 2022-12-19T12:41:02.722Z
 cuid: clbuscs8y000a08mk0w6a4dg3
 slug: how-to-setup-and-autofill-otp-using-pass-otp
 canonical: https://flarexes.com/how-to-setup-and-autofill-otp-using-pass-otp
