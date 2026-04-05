@@ -1,7 +1,7 @@
 ---
 title: "Fix Missing Directories & External Drives in Thunar File Manager on Hyprland"
 seoDescription: "Fix missing directories and external drives in Thunar on Hyprland by installing gvfs and xdg-user-dirs for a complete experience"
-datePublished: Sat Aug 16 2025 16:27:58 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-16T16:27:58.057Z
 cuid: cmeeh0r8p000102jpat9q7wli
 slug: fix-missing-directories-and-external-drives-in-thunar-file-manager-on-hyprland
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/rFnKnVz6XmQ/upload/74616ca77af3624e4c31dc83e755135a.jpeg
