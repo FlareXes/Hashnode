@@ -1,6 +1,6 @@
 ---
 title: "Why I'm Learning Go and Not Rust?"
-datePublished: Tue Nov 12 2024 03:39:46 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-12T03:39:46.399Z
 cuid: cm3dwlw0v000c09jl6js40qm7
 slug: why-im-learning-go-and-not-rust
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731382638919/715d31fd-48d4-4694-9b1d-ae7e5741461e.png
