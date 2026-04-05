@@ -2,7 +2,7 @@
 title: "The Applications Of Matrices In Cryptography"
 seoTitle: "Applications Of Matrices In Cryptogr"
 seoDescription: "Mathematics plays a very significant role in various domains of Information Technology. I will explain how cryptography depends upon matrix with AES 128 bit"
-datePublished: Mon Feb 14 2022 13:06:16 GMT+0000 (Coordinated Universal Time)
+datePublished: 2022-02-14T13:06:16.260Z
 cuid: ckzmpmuun025qo2s145ib5fnw
 slug: the-applications-of-matrices-in-cryptography
 canonical: https://flarexes.com/the-applications-of-matrices-in-cryptography
