@@ -2,7 +2,7 @@
 title: "SSL vs TLS: Key Differences, Historical Insights and Evolution"
 seoTitle: "SSL vs TLS: Key Differences, Historical Insights and Evolution"
 seoDescription: "Discover the key differences between SSL and TLS, their historical context, and why TLS has replaced SSL as the standard for secure web communication"
-datePublished: Thu Jan 01 2026 18:16:31 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-01-01T18:16:31.016Z
 cuid: cmjvrnwo8000602leg0vp2qke
 slug: ssl-vs-tls-key-differences-evolution-and-historical-insights
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/x66ubRvGXM8/upload/4b71daeb0c35533932ef1ce20e7cc32c.jpeg
