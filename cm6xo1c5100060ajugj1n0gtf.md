@@ -1,7 +1,7 @@
 ---
 title: "My Take on CEH vs eJPT: Harsh Truth & Straightforward Advice for Cybersecurity Enthusiasts"
 seoDescription: "To be blunt, the CEH theory exam is underwhelming—just a collection of random multiple-choice questions. eJPT was a better learning experience."
-datePublished: Sun Feb 09 2025 13:34:21 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-09T13:34:21.109Z
 cuid: cm6xo1c5100060ajugj1n0gtf
 slug: my-take-on-ceh-vs-ejpt-harsh-truth-straightforward-advice-for-cybersecurity-enthusiasts
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739107612431/5b625bad-1ae7-4431-824d-2d4e74965ddf.png
