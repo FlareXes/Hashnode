@@ -1,7 +1,7 @@
 ---
 title: "Linux Firejail: Securely Throw Untrusted Applications Behind Bars"
 seoTitle: "How to Sandbox Applications in Linux? [Firejail]"
-datePublished: Sat Dec 16 2023 07:01:35 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-12-16T07:01:35.028Z
 cuid: clq7pmlro000508l2hud6cyxz
 slug: linux-firejail-securely-throw-untrusted-applications-behind-bars
 canonical: https://flarexes.com/linux-firejail-securely-throw-untrusted-applications-behind-bars
