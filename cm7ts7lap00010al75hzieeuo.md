@@ -1,7 +1,7 @@
 ---
 title: "Self-Host Your Own Calendar with Baikal and Morgen"
 seoTitle: "Set Up Your Own Calendar with Baikal and Morgen"
-datePublished: Tue Mar 04 2025 00:59:49 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-04T00:59:49.009Z
 cuid: cm7ts7lap00010al75hzieeuo
 slug: self-host-your-own-calendar-with-baikal-and-morgen
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/Z_e8CTGUd2o/upload/16f03059d336c97e8da272c8feaf3e10.jpeg
