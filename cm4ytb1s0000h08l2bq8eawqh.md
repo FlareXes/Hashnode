@@ -1,7 +1,7 @@
 ---
 title: "Modular Arithmetic in Cryptography"
 seoDescription: "Modular arithmetic is crucial in cryptography for algorithms, security, and efficient operations like addition, subtraction, and multiplication"
-datePublished: Sat Dec 21 2024 23:30:13 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-12-21T23:30:13.825Z
 cuid: cm4ytb1s0000h08l2bq8eawqh
 slug: modular-arithmetic-in-cryptography
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734659076001/458959d6-9f83-40b2-b26d-51052fd35915.png
