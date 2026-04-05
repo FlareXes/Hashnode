@@ -1,6 +1,6 @@
 ---
 title: "Parrot OS Weird Docker Installation Issues"
-datePublished: Tue Jul 12 2022 07:48:17 GMT+0000 (Coordinated Universal Time)
+datePublished: 2022-07-12T07:48:17.006Z
 cuid: cl5hvfzu8045ys3nv4x6ta87n
 slug: parrot-os-weird-docker-installation-issues
 canonical: https://flarexes.com/parrot-os-weird-docker-installation-issues
