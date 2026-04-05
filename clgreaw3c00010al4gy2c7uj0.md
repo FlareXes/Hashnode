@@ -1,7 +1,7 @@
 ---
 title: "Build Your Own Private Search Engine With SearXNG"
 seoDescription: "SearXNG respects user's privacy and also provide high quality results like Google and Bing. We can easily run SearXNG instance using Docker in one command."
-datePublished: Sat Apr 22 2023 03:02:52 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-04-22T03:02:52.920Z
 cuid: clgreaw3c00010al4gy2c7uj0
 slug: build-your-own-private-search-engine-with-searxng
 canonical: https://flarexes.com/build-your-own-private-search-engine-with-searxng
