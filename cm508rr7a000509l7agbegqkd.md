@@ -2,7 +2,7 @@
 title: "Dockerize Your Go Application Using Multi-Stage Builds"
 seoTitle: "How to Dockerize Go App with Multi-Stage Builds"
 seoDescription: "Learn how to efficiently dockerize a Go application using multi-stage builds to reduce image size, improve deployment speed, and enhance security"
-datePublished: Sun Dec 22 2024 23:30:53 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-12-22T23:30:53.687Z
 cuid: cm508rr7a000509l7agbegqkd
 slug: dockerize-your-go-application-using-multi-stage-builds
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734009249844/2909b6e1-61c0-4685-91a3-52bbeb5f0164.png
