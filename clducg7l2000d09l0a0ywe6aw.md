@@ -1,7 +1,7 @@
 ---
 title: "Session vs Signal: Something Better Then WhatsApp"
 seoTitle: "Session vs Signal: Which is Better?"
-datePublished: Tue Feb 07 2023 14:35:13 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-02-07T14:35:13.382Z
 cuid: clducg7l2000d09l0a0ywe6aw
 slug: session-vs-signal-something-better-then-whatsapp
 canonical: https://flarexes.com/session-vs-signal-something-better-then-whatsapp
