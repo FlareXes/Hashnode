@@ -2,7 +2,7 @@
 title: "File Sharing Using cURL"
 seoTitle: "Share Files Using cURL"
 seoDescription: "THE NULL POINTER allows you to create an HTTP POST request to send a file very quickly from terminal via cURL."
-datePublished: Fri Jun 24 2022 10:14:26 GMT+0000 (Coordinated Universal Time)
+datePublished: 2022-06-24T10:14:26.868Z
 cuid: cl4saqmoh06u49vnve5jn3fqd
 slug: file-sharing-using-curl
 canonical: https://flarexes.com/file-sharing-using-curl
