@@ -5,7 +5,7 @@ datePublished: 2026-05-10T12:58:06.137Z
 cuid: cmozs3b9300wo1qizcaa6cwvx
 slug: hyprland-dynamically-theme-wayle-with-matugen
 cover: https://cdn.hashnode.com/uploads/covers/620721c5a2be760e35394d88/4b2ad157-8454-4716-a77a-d162b4e29d3e.png
-tags: linux, wayland, hyperlane, matugen, wayle, hyprpanel, waybar
+tags: linux, wayland, hyprland, matugen, wayle, hyprpanel, waybar
 
 ---
 
