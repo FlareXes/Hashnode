@@ -1,5 +1,5 @@
 ---
-title: "How to Theme Wayle with Matugen on Hyprland"
+title: "How to Theme Wayle with Matugen on Hyprland?"
 seoTitle: "How to Theme Wayle with Matugen on Hyprland"
 seoDescription: "Theme Wayle with Matugen using a simple wallpaper-based setup. Clean dynamic colors, transparent bar, and no weird built-in integration."
 datePublished: 2026-05-10T12:58:06.137Z
