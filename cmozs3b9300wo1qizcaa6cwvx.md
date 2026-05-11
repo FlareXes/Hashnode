@@ -1,9 +1,10 @@
 ---
-title: "Hyprland: Dynamically Theme Wayle With Matugen"
+title: "How to Theme Wayle with Matugen on Hyprland"
+seoTitle: "How to Theme Wayle with Matugen on Hyprland"
 seoDescription: "Theme Wayle with Matugen using a simple wallpaper-based setup. Clean dynamic colors, transparent bar, and no weird built-in integration."
 datePublished: 2026-05-10T12:58:06.137Z
 cuid: cmozs3b9300wo1qizcaa6cwvx
-slug: hyprland-dynamically-theme-wayle-with-matugen
+slug: how-to-theme-wayle-with-matugen-on-hyprland
 cover: https://cdn.hashnode.com/uploads/covers/620721c5a2be760e35394d88/4b2ad157-8454-4716-a77a-d162b4e29d3e.png
 tags: linux, wayland, hyprland, matugen, wayle, hyprpanel, waybar
 
