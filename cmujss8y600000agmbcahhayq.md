@@ -1,6 +1,6 @@
 ---
 title: "Wait, That's an IP Address?"
-seoDescription: "Explore weird IPv4 notation, legacy parsing, browser behavior, URL tricks, IPv6, and real-world security bugs hiding behind one IP address."
+seoDescription: "Explore weird IPv4 notation: 8.8.2056, legacy parsing, browser behavior, URL tricks, IPv6, and real-world security bugs hiding behind IP addresses."
 datePublished: 2026-09-27T12:31:24.785Z
 cuid: cmujss8y600000agmbcahhayq
 slug: ip-address-obfuscation-decimal-hex-octal
