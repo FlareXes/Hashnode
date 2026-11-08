@@ -1,9 +1,9 @@
 ---
-title: "Wait, That's an IP Address?"
+title: "IPv4 Obfuscation, Legacy Parsing, URL Tricks, and Real-World Security Vulnerabilities"
 seoDescription: "Explore weird IPv4 notation: 8.8.2056, legacy parsing, browser behavior, URL tricks, IPv6, and real-world security bugs hiding behind IP addresses."
 datePublished: 2026-09-27T12:31:24.785Z
 cuid: cmujss8y600000agmbcahhayq
-slug: ip-address-obfuscation-decimal-hex-octal
+slug: ipv4-obfuscation-legacy-parsing-url-tricks-security-vulnerabilities
 cover: https://cdn.hashnode.com/uploads/covers/620721c5a2be760e35394d88/dea2173d-4c8a-4b96-b5b5-daa0ce700a16.png
 tags: security, research, networking, cybersecurity, obfuscation, ipv4, ip-address, browser-security, security-research, ip-address-parsing
 
@@ -28,12 +28,9 @@ The classic "shorthand" parser (more on its origin in a second) accepts the addr
 
 And each individual number, in any of those forms, can independently be written in:
 
-*   Decimal: `84`
-    
-*   Octal: any value with a leading `0`, so `0124` = 84 decimal
-    
-*   Hexadecimal: any value with a leading `0x`, so `0x54` = 84 decimal
-    
+- Decimal: `84`
+- Octal: any value with a leading `0`, so `0124` = 84 decimal
+- Hexadecimal: any value with a leading `0x`, so `0x54` = 84 decimal
 
 Not just that you can also mix those bases within the same address. `0x2d.39.0124.216` is a legal way to write `45.39.84.216` (first octet hex, second decimal, third octal, fourth decimal that looks octal but isn't because no leading zero this is exactly the kind of ambiguity that causes bugs, which we'll get to).
 
@@ -51,12 +48,9 @@ Result: `45.39.84.142`
 
 Converted to other notations, that same address is:
 
-*   Full decimal integer: `757552270`
-    
-*   Full hex: `0x2D27548E`
-    
-*   Full octal (per-octet): `055.047.0124.0216`
-    
+- Full decimal integer: `757552270`
+- Full hex: `0x2D27548E`
+- Full octal (per-octet): `055.047.0124.0216`
 
 All four of these strings, along with `45.39.21646`, are **the exact same destination**.
 
@@ -68,12 +62,9 @@ I came to this conclusion - it started unintentionally because how early Unix/BS
 
 Under the **classful addressing** scheme (pre-1993, before CIDR — see [RFC 791](https://www.rfc-editor.org/rfc/rfc791) and later [RFC 1518](https://www.rfc-editor.org/rfc/rfc1518)), IP address space was split into Class A, B, and C networks based on the value of the first octet:
 
-*   **Class A**: first octet = network, remaining 24 bits = host
-    
-*   **Class B**: first two octets = network, remaining 16 bits = host
-    
-*   **Class C**: first three octets = network, remaining 8 bits = host
-    
+- **Class A**: first octet = network, remaining 24 bits = host
+- **Class B**: first two octets = network, remaining 16 bits = host
+- **Class C**: first three octets = network, remaining 8 bits = host
 
 If you were an admin sitting on a Class A network like `127.0.0.0/8` (yes, the loopback block is a Class A network) and you wanted to refer to host `1` on that network, typing `127.0.0.1` was needlessly verbose when the system already knew network `127` was 24 bits of host space. So `127.1` became a legitimate, useful shorthand. This is exactly why `127.1` still resolves to `127.0.0.1` today: it's not a coincidence or a bug, it's the shorthand rule working as designed, more than 40 years after classful addressing was formally retired by CIDR in [RFC 1519](https://www.rfc-editor.org/rfc/rfc1519) (1993).
 
@@ -107,12 +98,9 @@ The issue was resolved in 2015, when the IPv4 parser was added to the URL specif
 
 So you end up with a genuinely strange landscape:
 
-*   Strict parsers (`inet_pton`, most modern security-conscious libraries) → **reject** anything but four decimal octets.
-    
-*   Legacy parsers (`inet_aton`, `getaddrinfo`'s numeric-host path, browser URL parsers) → **accept** the full mess of hex/octal/shorthand.
-    
-*   Web URL parsers → own standardized behavior through **WHATWG**, which intentionally preserves these legacy forms for web compatibility.
-    
+- Strict parsers (`inet_pton`, most modern security-conscious libraries) → **reject** anything but four decimal octets.
+- Legacy parsers (`inet_aton`, `getaddrinfo`'s numeric-host path, browser URL parsers) → **accept** the full mess of hex/octal/shorthand.
+- Web URL parsers → own standardized behavior through **WHATWG**, which intentionally preserves these legacy forms for web compatibility.
 
 Now the problem is not simply that one specification is "right" and another is "wrong." The problem is that the same string can cross multiple software layers, and those layers may apply different parsing rules before they arrive at the same 32-bit destination address.
 
@@ -140,14 +128,10 @@ and then further compressed to:
 
 Here are the important rules:
 
-*   **Leading zeros within a 16-bit group are optional.** `0db8` and `db8` represent the same value.
-    
-*   **A consecutive run of zero groups can be replaced with** `::`**.** RFC 4291 allows `::` to represent one or more consecutive 16-bit zero groups, and it can appear only once in an address.
-    
-*   **Hexadecimal letters are case-insensitive.** `2001:DB8::1` and `2001:db8::1` are the same address. RFC 5952 later recommends lowercase for canonical representation.
-    
-*   `::` by itself represents the **unspecified address**, `::/128`. It is not the same as `::1`, which is the **loopback address**. RFC 4291 explicitly defines both representations.
-    
+- **Leading zeros within a 16-bit group are optional.** `0db8` and `db8` represent the same value.
+- **A consecutive run of zero groups can be replaced with** `::`**.** RFC 4291 allows `::` to represent one or more consecutive 16-bit zero groups, and it can appear only once in an address.
+- **Hexadecimal letters are case-insensitive.** `2001:DB8::1` and `2001:db8::1` are the same address. RFC 5952 later recommends lowercase for canonical representation.
+- `::` by itself represents the **unspecified address**, `::/128`. It is not the same as `::1`, which is the **loopback address**. RFC 4291 explicitly defines both representations.
 
 That's already a lot of equally-valid spellings for one address before we even get to IPv4.
 
@@ -159,12 +143,9 @@ The real rabbit hole starts when IPv4 gets embedded inside IPv6.
 
 IPv6 has several mechanisms that carry IPv4 information inside a 128-bit IPv6 address. The important distinction is that these mechanisms serve different purposes: some are operating-system representations, some were designed for IPv6 transition, and others are used by translation mechanisms such as NAT64.
 
-*   **IPv4-mapped IPv6 addresses** (`::ffff:a.b.c.d`): used to represent an IPv4 node as an IPv6 address, particularly in dual-stack APIs and sockets.
-    
-*   **IPv4-compatible IPv6 addresses** (`::a.b.c.d`): an older IPv6 transition mechanism that RFC 4291 later deprecated.
-    
-*   **NAT64 IPv4-embedded addresses**: the well-known prefix is `64:ff9b::/96`, followed by the embedded IPv4 address. For the `/96` form, the IPv4 address occupies the low-order 32 bits of the IPv6 address.
-    
+- **IPv4-mapped IPv6 addresses** (`::ffff:a.b.c.d`): used to represent an IPv4 node as an IPv6 address, particularly in dual-stack APIs and sockets.
+- **IPv4-compatible IPv6 addresses** (`::a.b.c.d`): an older IPv6 transition mechanism that RFC 4291 later deprecated.
+- **NAT64 IPv4-embedded addresses**: the well-known prefix is `64:ff9b::/96`, followed by the embedded IPv4 address. For the `/96` form, the IPv4 address occupies the low-order 32 bits of the IPv6 address.
 
 All three are different mechanisms, but they share one interesting property: an IPv4 address can appear inside an IPv6 representation.
 
@@ -279,7 +260,7 @@ PING 151587081 (9.9.9.9) 56(84) bytes of data.
 rtt min/avg/max/mdev = 110.642/110.642/110.642/0.000 ms
 ```
 
-And this legacy behavior is not just sitting in old code nobody touches anymore. **NetworkManager's** `nm-shared-utils.c` has explicitly documented that it intentionally uses `inet_aton()` in a controlled manner to preserve support for legacy IPv4 address forms that inet\_pton() does not accept.
+And this legacy behavior is not just sitting in old code nobody touches anymore. **NetworkManager's** `nm-shared-utils.c` has explicitly documented that it intentionally uses `inet_aton()` in a controlled manner to preserve support for legacy IPv4 address forms that inet_pton() does not accept.
 
 ## Why Does `ping` Works but the Browser Searches?
 
@@ -305,14 +286,10 @@ numeric IPv4 parsing
 
 **The browser's path require two stages:**
 
-1.  **Input classification happens first.** The omnibox has to decide what the user is trying to enter: a URL, a search query, or something ambiguous. Chromium's own source code makes this distinction explicit. If there is no scheme, username, port, or known TLD, a single-word input can be treated as ambiguous because it could be an intranet hostname or simply a search term. Chromium therefore defaults these ambiguous single-word inputs to search. **"localhost"** is an exception. ([Chromium source](https://chromium.googlesource.com/chromium/src/%2B/b9c645c0b167a38b8f93b6c9e9f5a6a2f3e854ae/components/omnibox/browser/autocomplete_input.cc) and [Chromium Omnibox documentation](https://chromium.googlesource.com/playground/chromium-org-site/%2B/master/user-experience/omnibox/index.md))
-    
-    *   `755396366` → a single numeric token with no scheme or dots → treated as ambiguous input → search is the default behavior.
-        
-    *   `45.39.21646` → contains dots and looks structurally like a host → can be treated as a URL candidate.
-        
-2.  **The URL parser then determines what that URL actually means.** Once the input is being handled as a URL, the WHATWG URL parser applies its host-parsing algorithm. That parser still supports the legacy IPv4 forms we've been discussing, including hexadecimal, octal, and 1-, 2-, and 3-part notation. So `45.39.21646` can ultimately be parsed and normalized to `45.39.84.142`. ([WHATWG URL Standard](https://url.spec.whatwg.org/))
-    
+1. **Input classification happens first.** The omnibox has to decide what the user is trying to enter: a URL, a search query, or something ambiguous. Chromium's own source code makes this distinction explicit. If there is no scheme, username, port, or known TLD, a single-word input can be treated as ambiguous because it could be an intranet hostname or simply a search term. Chromium therefore defaults these ambiguous single-word inputs to search. **"localhost"** is an exception. ([Chromium source](https://chromium.googlesource.com/chromium/src/%2B/b9c645c0b167a38b8f93b6c9e9f5a6a2f3e854ae/components/omnibox/browser/autocomplete_input.cc) and [Chromium Omnibox documentation](https://chromium.googlesource.com/playground/chromium-org-site/%2B/master/user-experience/omnibox/index.md))
+   - `755396366` → a single numeric token with no scheme or dots → treated as ambiguous input → search is the default behavior.
+   - `45.39.21646` → contains dots and looks structurally like a host → can be treated as a URL candidate.
+2. **The URL parser then determines what that URL actually means.** Once the input is being handled as a URL, the WHATWG URL parser applies its host-parsing algorithm. That parser still supports the legacy IPv4 forms we've been discussing, including hexadecimal, octal, and 1-, 2-, and 3-part notation. So `45.39.21646` can ultimately be parsed and normalized to `45.39.84.142`. ([WHATWG URL Standard](https://url.spec.whatwg.org/))
 
 Firefox had its own interesting location-bar edge case here. [Bugzilla #1154245](https://bugzilla.mozilla.org/show_bug.cgi?id=1154245), reported against Firefox 37, documented that entering `127.0.0.1/1` caused Firefox to perform a search instead of loading `http://127.0.0.1/1`, while `127.0.0.1/x1` loaded normally. The bug specifically affected IP addresses followed by paths containing only numbers. Chromium 37 handled the same URL correctly. Mozilla fixed the issue in **Firefox 40**.
 
@@ -428,18 +405,12 @@ Parse it, validate it, canonicalize it, and make the security decision on the ad
 
 ### The principles
 
-1.  **Don't rely on a regex for IPv4 semantics.** A rule such as `\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}` only recognizes one visual shape. It doesn't understand decimal integers, hexadecimal, 1/2/3-part notation, or the different meanings that some parsers assign to leading-zero octets.
-    
-2.  **Canonicalize before you compare.** Parse the untrusted input into its actual address representation before applying allow-lists, deny-lists, subnet checks, or other access-control rules. *Comparing raw strings means you're comparing formatting, not the destination*.
-    
-3.  **Prefer strict parsers for security-sensitive input.** In C, `inet_pton()` accepts IPv4 only in dotted-decimal form, unlike `inet_aton()` and `inet_addr()`, which accept the broader legacy numbers-and-dots syntax. Python's `ipaddress` module also rejects leading-zero IPv4 strings in current versions, with the strict behavior introduced in Python 3.9.5 and 3.8.12.
-    
-4.  **Reject ambiguous leading zeros rather than guessing.** A string such as `012.0.0.1` is exactly the sort of input that can mean different addresses to different parsers. [CVE-2026-69192](https://github.com/beaugunderson/ip-address/security/advisories/GHSA-mwp4-54f8-5fhr) is a current example: the affected `ip-address` library interpreted `012` as decimal `12`, while the WHATWG URL parser, `inet_aton()`, and `getaddrinfo()` interpreted it as octal `10`.
-    
-5.  **Validate the destination that will actually be connected to.** Don't assume that checking the original hostname or URL string is enough. If possible, resolve hostnames, validate the resulting addresses, account for redirects and DNS rebinding, and ensure the socket ultimately connects to an address that satisfies your policy. The CVE-2026-69192 advisory explicitly calls out this distinction.
-    
-6.  **Normalize IPv4-mapped IPv6 addresses too.** A filter that understands `::ffff:169.254.169.254` but doesn't recognize the equivalent `::ffff:a9fe:a9fe` can still be bypassed. [CVE-2026-33975](https://github.com/twentyhq/twenty/security/advisories/GHSA-vrcj-hv2q-c58m) is a real 2026 example of exactly that normalization mismatch in an SSRF protection layer.
-    
+1. **Don't rely on a regex for IPv4 semantics.** A rule such as `\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}` only recognizes one visual shape. It doesn't understand decimal integers, hexadecimal, 1/2/3-part notation, or the different meanings that some parsers assign to leading-zero octets.
+2. **Canonicalize before you compare.** Parse the untrusted input into its actual address representation before applying allow-lists, deny-lists, subnet checks, or other access-control rules. *Comparing raw strings means you're comparing formatting, not the destination*.
+3. **Prefer strict parsers for security-sensitive input.** In C, `inet_pton()` accepts IPv4 only in dotted-decimal form, unlike `inet_aton()` and `inet_addr()`, which accept the broader legacy numbers-and-dots syntax. Python's `ipaddress` module also rejects leading-zero IPv4 strings in current versions, with the strict behavior introduced in Python 3.9.5 and 3.8.12.
+4. **Reject ambiguous leading zeros rather than guessing.** A string such as `012.0.0.1` is exactly the sort of input that can mean different addresses to different parsers. [CVE-2026-69192](https://github.com/beaugunderson/ip-address/security/advisories/GHSA-mwp4-54f8-5fhr) is a current example: the affected `ip-address` library interpreted `012` as decimal `12`, while the WHATWG URL parser, `inet_aton()`, and `getaddrinfo()` interpreted it as octal `10`.
+5. **Validate the destination that will actually be connected to.** Don't assume that checking the original hostname or URL string is enough. If possible, resolve hostnames, validate the resulting addresses, account for redirects and DNS rebinding, and ensure the socket ultimately connects to an address that satisfies your policy. The CVE-2026-69192 advisory explicitly calls out this distinction.
+6. **Normalize IPv4-mapped IPv6 addresses too.** A filter that understands `::ffff:169.254.169.254` but doesn't recognize the equivalent `::ffff:a9fe:a9fe` can still be bypassed. [CVE-2026-33975](https://github.com/twentyhq/twenty/security/advisories/GHSA-vrcj-hv2q-c58m) is a real 2026 example of exactly that normalization mismatch in an SSRF protection layer.
 
 The general rule is:
 
